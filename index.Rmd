@@ -22,8 +22,9 @@ This is a test!
 
 # Schedule
 
+[Test](index.html)
 
 # Syllabus
 
-- [**Online**](PPOL564-Syllabus.html)
-- [**Download**](PPOL564-Syllabus.pdf)
+- [**Online**](syllabus/PPOL564-Syllabus.html)
+- [**Download**](syllabus/PPOL564-Syllabus.pdf)

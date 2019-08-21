@@ -1,0 +1,18 @@
+/* Whole document: */
+title{
+  font-family: Garamond;
+}
+
+subtitle{
+  font-style: Garamond;
+}
+
+body{
+  font-family: Garamond;
+  font-size: 16pt;
+}
+/* Headers */
+h1{
+  font-size: 24pt;
+  font-family: Garamond;
+}

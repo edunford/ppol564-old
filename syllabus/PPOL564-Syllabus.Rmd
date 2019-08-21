@@ -5,7 +5,7 @@ output:
   html_document: default
 ---
 
-[**Back to Course Website**](http://ericdunford.com/ppol564/)
+[**Back to Course Website**](index.html)
 
 
 \begin{center}
