@@ -1,30 +1,234 @@
 ---
 title: |
   PPOL564 | Data Science 1: Foundations
-subtitle: Class Website for Fall 2019
+subtitle: | 
+  | _Class Website_
+  | 
+toctitle: "Contents"
 output: 
   html_document:
     css: style.css
     theme: cerulean
     toc: true
-    toc_depth: 4
+    toc_depth: 3
     toc_float:
-      collapsed: false
-      smooth_scroll: false
+      collapsed: true
+      smooth_scroll: true
 ---
-<title>PPOL670</title>
+
+```{r,include=F}
+# Packages for reading in the tables
+require(tidyverse)
+require(kableExtra)
+```
+
+
+<center>**Fall 2019**</center>
+<center>**Georgetown University**</center>
+
+<br>
+
+
+
+# Course Outline {.tabset .tabset-fade .tabset-pills}
+
+## Course Schedule
+
+```{r,echo=F,message=F,results='asis'}
+read_csv('syllabus/fall-2019-timeline.csv') %>%
+  select(-`Class No.`,-CD,-Assignment) %>% 
+  filter(Topic != "No Class") %>% 
+  {.[is.na(.)]="";.} %>% 
+  kable(., "html", booktabs = T,align = c('c','l','l')) %>%
+  # kable(., "latex", booktabs = T,align = c('c','l','l')) %>%
+  kable_styling(latex_options = c("striped", 
+                                  "scale_down","repeat_header"),
+                full_width = T,font_size = 16) %>% 
+  column_spec(1,width = '.5in') %>% 
+  column_spec(2,width = '1in') %>% 
+  column_spec(3,width = '4in') 
+```
 
 <br>
 <br>
 <br>
+<br>
 
-This is a test!
+## Course Description
 
-# Schedule
+This first course in the core data science sequence introduces students to the programming and mathematical concepts that underpin statistical learning. The aim of the course is to provide students with the foundations necessary to grasp the concepts and algorithms encountered in Data Science II and III. Students will cover linear algebra with a focus on linear regression and dimension reduction; multivariate calculus with an emphasis on optimization algorithms, specifically gradient descent; and probability theory with an emphasis on simulation, Bayes rule, and MCMC sampling. Throughout the course, students will be introduced to the fundamentals of programming and manipulating data with Python. Students will work in Jupyter notebooks and use Git/GitHub to submit coding assignments, developing literate programming and reproducible research skills they will use throughout the program. 
 
-[Test](index.html)
+The course covers four main topics. Topic 1 focuses on building competency with programming and wrangling data in Python with an emphasis on producing readable, reproducible, and well-documented code. Students will build competency with version control using Git/Github. The skills acquired in Topic 1 is applied throughout the course, both in the form of coding “discussions” and applied assignment for the later mathematical discussions. Topic 2 delves into linear algebra. Students will gain a vital intuition of many of the mathematical properties that inform statistical learning and data decomposition. Topic 3 covers uni- and multivariate calculus with an emphasis on optimization where students will gain an intuition of computational optimization using Python. Finally, Topic 4 briefly covers probability theory with a focus on computational simulation, Bayesian estimation, and sampling.
 
-# Syllabus
+<br>
+<br>
+<br>
+<br>
 
-- [**Online**](syllabus/PPOL564-Syllabus.html)
-- [**Download**](syllabus/PPOL564-Syllabus.pdf)
+## Syllabus
+
+- Access an [**Online Version**](syllabus/PPOL564-Syllabus.html)
+- [**Download**](syllabus/PPOL564-Syllabus.pdf) a `.pdf` version locally. 
+
+<br>
+<br>
+<br>
+<br>
+
+## Contact
+
+<br>
+
+#### [Eric Dunford](www.ericdunford.com) (Professor)
+
+- **Office**: 404 Old North
+- **Office Hours**: Tuesdays 3pm to 5pm
+- **Email**: [eric.dunford@georgetown.edu](mailto:eric.dunford@georgetown.edu)
+
+<br>
+
+#### Andrea Quevedo (Teaching Assistant)
+
+- **Office Hours**: by appointment
+- **Email**: [aq38@georgetown.edu](mailto:aq38@georgetown.edu)
+
+<br>
+<br>
+<br>
+<br>
+
+
+# Course Materials
+
+<br>
+<br>
+
+### Reproducibility
+
+- _Required Readings_
+  - [The Plain Person's Guide to Plain Text Social Science](http://plain-text.co/) - Kieran Healy
+    + Ch. 1: Introduction
+    + Ch. 2: Keep a Record
+    + Ch. 3: Write and Edit
+    + Ch. 4: Reproduce Work
+
+<br>
+
+---
+
+<br>
+
+
+### Version Control
+
+- _Required Readings_
+  - [Pro Git](https://git-scm.com/book/en/v2) - Chacon & Straub 
+    + Ch. 1: Getting Started
+    + Ch. 2: Git Basics
+
+<br>
+
+---
+
+<br>
+
+
+### Python Notebooks
+
+- _Required Readings_
+  + [Jupyter Notebook for Beginners: A tutorial](https://www.dataquest.io/blog/jupyter-notebook-tutorial/) - Pryke, Benjamin. www.dataquest.io
+  + [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/index.html) by Jake VanderPlas
+    + [Help and Documentation in IPython](https://jakevdp.github.io/PythonDataScienceHandbook/01.01-help-and-documentation.html)
+    + [IPython Magic Commands](https://jakevdp.github.io/PythonDataScienceHandbook/01.03-magic-commands.html)
+    + [Input and Output History](https://jakevdp.github.io/PythonDataScienceHandbook/01.04-input-output-history.html)
+    + [IPython and Shell Commands](https://jakevdp.github.io/PythonDataScienceHandbook/01.05-ipython-and-shell-commands.html)
+    
+- _Additional Resources_
+  + [More IPython Resources](https://jakevdp.github.io/PythonDataScienceHandbook/01.08-more-ipython-resources.html)
+
+<br>
+
+---
+
+<br>
+
+
+### Data Types in Python
+
+- _Required Readings_
+    - Lutz - Ch. 4 (See Canvas)
+
+<br>
+
+---
+
+<br>
+
+### Control Sequences, Iteration, and Functions
+
+- _Required Readings_
+    - [Repeated Actions with Loops](https://swcarpentry.github.io/python-novice-inflammation/02-loop/index.html) - Data Carpentry
+    - [Making Choices](https://swcarpentry.github.io/python-novice-inflammation/05-cond/index.html) - Data Carpentry
+    - [Creating Functions ](https://swcarpentry.github.io/python-novice-inflammation/06-func/index.html) - Data Carpentry
+
+
+<br>
+
+---
+
+<br>
+
+
+### Comprehensions and Generators
+
+- _Required Readings_
+    - Lutz - Ch.14 (See Canvas)
+
+<br>
+
+---
+
+<br>
+
+### Numpy
+
+<!-- - _Required Readings_ -->
+<!-- - _Additional Resources_ -->
+
+<!-- <br> -->
+
+<!-- --- -->
+
+<!-- <br> -->
+
+### Data Wrangling with Pandas (part 1)
+### Data Wrangling with Pandas (part 2)
+### Exploratory Data Analysis
+### Vectors 
+### Trigonometry of Vectors 
+### Matrix Transformations
+### Matrix Operations and Inversions 
+### Linear Regression 
+### Eigen Decompositions
+### Decompositions in Practice 
+### Differentiation
+### Optimizing Univariate Functions
+### Optimizing Multivariate Functions
+### Gradient Decent
+### Constrained Optimization and Regularization
+### Probability 
+### Bayes Rule & Naive Bayes Algorithm
+### Simulation and MCMC Sampling
+
+<br>
+---
+
+# Lab Schedule
+
+To be announced.
+
+<br>
+
+
+
+
