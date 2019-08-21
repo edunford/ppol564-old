@@ -1,0 +1,32 @@
+Class No. ,Week ,Date,Topic,CD,Assignment
+,,Aug. 28,No Class,,
+,1,Sept. 2,No Class ,,
+1,1,Sept. 4,Reproducibility,,
+2,2,Sept. 9,Version Control ,,
+3,2,Sept. 11,Python Notebooks,x,
+4,3,Sept. 16,Data Types in Python,,
+5,3,Sept. 18,"Control Sequences, Iteration, and Functions",x,
+6,4,Sept. 23,Comprehensions and Generators,,
+7,4,Sept. 25,Numpy,,x
+8,5,Sept. 30,Data Wrangling with Pandas (part 1),,
+9,5,Oct. 2,Data Wrangling with Pandas (part 2),x,
+10,6,Oct. 7,Exploratory Data Analysis,,
+11,6,Oct. 9,Vectors ,,x
+,7,Oct. 14,No Class ,,
+12,7,Oct. 16,Trigonometry of Vectors ,x,
+13,8,Oct. 21,Matrix Transformations,,
+14,8,Oct. 23,Matrix Operations and Inversions ,x,
+15,9,Oct. 28,Linear Regression ,,
+16,9,Oct. 30,Eigen Decompositions,x,
+17,10,Nov. 4,Decompositions in Practice ,,
+18,10,Nov. 6,Differentiation,,x
+19,11,Nov. 11,Optimizing Univariate Functions,,
+20,11,Nov. 13,Optimizing Multivariate Functions,x,
+21,12,Nov. 18,Gradient Decent,,
+22,12,Nov. 20,Constrained Optimization and Regularization,,x
+23,13,Nov. 25,Probability ,,
+,13,Nov. 27,No Class,,
+24,14,Dec. 2,Bayes Rule & Naive Bayes Algorithm,,
+25,14,Dec. 4,Simulation and MCMC Sampling,,x
+26,15,Dec. 9,Wrap Up,,
+Final,Final,Dec. 20,12:30pm-2:30pm - Location TBA,,

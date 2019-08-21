@@ -1,16 +1,29 @@
 ---
+title: |
+  PPOL564 | Data Science 1: Foundations
+subtitle: Class Website for Fall 2019
 output: 
   html_document:
+    css: style.css
     theme: cerulean
     toc: true
-    toc_depth: 2
+    toc_depth: 4
     toc_float:
       collapsed: false
       smooth_scroll: false
 ---
+<title>PPOL670</title>
 
-# Test Web Site!
+<br>
+<br>
+<br>
 
 This is a test!
 
 # Schedule
+
+
+# Syllabus
+
+- [**Online**](PPOL564-Syllabus.html)
+- [**Download**](PPOL564-Syllabus.pdf)

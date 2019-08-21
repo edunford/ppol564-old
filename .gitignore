@@ -1,3 +1,14 @@
+# All Main Files
+assignments/
+coding_discussions/
+lectures/
+previous_versions/
+readings/
+*.DS_Store
+*.Rprofile
+*.nbgrader.log
+ppol564.Rproj
+
 # History files
 .Rhistory
 .Rapp.history
