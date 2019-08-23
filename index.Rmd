@@ -1,4 +1,5 @@
 ---
+title: "PPOL564"
 output: 
   html_document:
     css: style.css
@@ -16,7 +17,9 @@ require(tidyverse)
 require(kableExtra)
 ```
 
-<center><h1>PPOL564 | Data Science 1: Foundations</h1></center>
+
+
+<center><h1>Data Science 1: Foundations</h1></center>
 <center>**Fall 2019**</center>
 <center>**Georgetown University**</center>
 
