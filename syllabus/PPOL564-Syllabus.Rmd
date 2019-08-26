@@ -1,11 +1,11 @@
 ---
 fontsize: 12pt
 output:
-  pdf_document: default
-  # html_document: default
+  # pdf_document: default
+  html_document: default
 ---
 
-<!-- [**Back to Course Website**](http://ericdunford.com/ppol564) -->
+[**Back to Course Website**](http://ericdunford.com/ppol564)
 
 
 \begin{center}
@@ -87,11 +87,11 @@ The course aims to provide students with the following competencies:
 
 - [**A Mathematics Course for Political and Social Research**](https://www.amazon.com/Mathematics-Course-Political-Social-Research/dp/0691159173/ref=sr_1_1?ie=UTF8&qid=1533153844&sr=8-1&keywords=a+mathematics+course+for+political+and+social+research&dpID=51wVtU1VsLL&preST=_SY291_BO1,204,203,200_QL40_&dpSrc=srch). Moore, Will H., and David A. Siegel. Princeton University Press, 2013.
 
-- Additional readings will be posted for each class day and can be found on the course website (www.ericdunford.com/ppol564/readings). Most reading material is available via a link on the reading list, otherwise it can be found on CANVAS. 
+- Additional readings will be posted for each class day and can be found on the course website. Most reading material is open source and available via a link on the reading list, otherwise it can be found on CANVAS. 
 
 - All class slides and lecture notes will be available on the class website. 
 
-**Class Website**: A class website (ericdunford.com/ppol564) will be used throughout the course and should be checked on a regular basis for lecture materials and required reading list. 
+**Class Website**: A class website (www.ericdunford.com/ppol564) will be used throughout the course and should be checked on a regular basis for lecture materials and required readings. 
 
 **Class Slack Channel**: The class also has a dedicated slack channel (ppol564-foundations.slack.com). The channel serves as an open forum to discuss, collaborate, pose problems/questions, and offer solutions. Students are encouraged to pose any questions they have there as this will provide the professor and TA the means of answering the question so that all can see the response. If you're unfamiliar with, please consult the following start-up tutorial (https://get.slack.help/hc/en-us/articles/218080037-Getting-started-for-new-members). Please follow the [**_invite link_**](https://join.slack.com/t/ppol564-foundations/shared_invite/enQtNzM1Njg0NDk0MzI3LWRhYWFjMWMyM2UwOTBlMjg2ZWI3YmZmYjE0NTQzYzM1NWIyZjJkZGJmMTZjNjU0OWZjMzY0YjYyOTMyYmNiMTU) to be added to the Slack channel.
 
@@ -279,8 +279,8 @@ read_csv('fall-2019-timeline.csv') %>%
   select(-`Class No.`,-CD,-Assignment) %>% 
   filter(Topic != "No Class") %>% 
   {.[is.na(.)]="";.} %>% 
-  # kable(., "html", booktabs = T,align = c('c','l','l')) %>%
-  kable(., "latex", booktabs = T,align = c('c','l','l')) %>%
+  kable(., "html", booktabs = T,align = c('c','l','l')) %>%
+  # kable(., "latex", booktabs = T,align = c('c','l','l')) %>%
   kable_styling(latex_options = c("striped", 
                                   "scale_down","repeat_header"),
                 full_width = T,font_size = 11) %>% 
