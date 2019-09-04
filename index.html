@@ -67,6 +67,8 @@ overflow: auto;
 margin-left: 2%;
 position: fixed;
 border: 1px solid #ccc;
+webkit-border-radius: 6px;
+moz-border-radius: 6px;
 border-radius: 6px;
 }
 
@@ -94,14 +96,9 @@ font-size: 12px;
 .tocify-subheader .tocify-subheader {
 text-indent: 30px;
 }
+
 .tocify-subheader .tocify-subheader .tocify-subheader {
 text-indent: 40px;
-}
-.tocify-subheader .tocify-subheader .tocify-subheader .tocify-subheader {
-text-indent: 50px;
-}
-.tocify-subheader .tocify-subheader .tocify-subheader .tocify-subheader .tocify-subheader {
-text-indent: 60px;
 }
 
 .tocify .tocify-item > a, .tocify .nav-list .nav-header {
@@ -505,13 +502,13 @@ float: none;
 
           item.append($("<a/>", {
 
-            "html": self.html()
+            "text": self.text()
 
           }));
 
         } else {
 
-          item.html(self.html());
+          item.text(self.text());
 
         }
 
@@ -1551,6 +1548,8 @@ div.tocify {
 
 .tocify-subheader .tocify-item {
   font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
 }
 
 .tocify .list-group-item {
@@ -1967,105 +1966,26 @@ Dec. 20
 <div id="reproducibility" class="section level3">
 <h3>Reproducibility</h3>
 <ul>
-<li><em>Required Readings</em>
-<ul>
-<li><a href="http://plain-text.co/">The Plain Person’s Guide to Plain Text Social Science</a> - Kieran Healy
-<ul>
-<li>Ch. 1: Introduction</li>
-<li>Ch. 2: Keep a Record</li>
-<li>Ch. 3: Write and Edit</li>
-<li>Ch. 4: Reproduce Work</li>
-</ul></li>
-</ul></li>
+<li><a href="lectures/lecture_01/lecture-01.html">Lecture Slides</a></li>
 </ul>
-<p><br></p>
-<hr />
-<p><br></p>
 </div>
 <div id="version-control" class="section level3">
 <h3>Version Control</h3>
-<ul>
-<li><em>Required Readings</em>
-<ul>
-<li><a href="https://git-scm.com/book/en/v2">Pro Git</a> - Chacon &amp; Straub
-<ul>
-<li>Ch. 1: Getting Started</li>
-<li>Ch. 2: Git Basics</li>
-</ul></li>
-</ul></li>
-</ul>
-<p><br></p>
-<hr />
-<p><br></p>
 </div>
 <div id="python-notebooks" class="section level3">
 <h3>Python Notebooks</h3>
-<ul>
-<li><em>Required Readings</em>
-<ul>
-<li><a href="https://www.dataquest.io/blog/jupyter-notebook-tutorial/">Jupyter Notebook for Beginners: A tutorial</a> - Pryke, Benjamin. www.dataquest.io</li>
-<li><a href="https://jakevdp.github.io/PythonDataScienceHandbook/index.html">Python Data Science Handbook</a> by Jake VanderPlas
-<ul>
-<li><a href="https://jakevdp.github.io/PythonDataScienceHandbook/01.01-help-and-documentation.html">Help and Documentation in IPython</a></li>
-<li><a href="https://jakevdp.github.io/PythonDataScienceHandbook/01.03-magic-commands.html">IPython Magic Commands</a></li>
-<li><a href="https://jakevdp.github.io/PythonDataScienceHandbook/01.04-input-output-history.html">Input and Output History</a></li>
-<li><a href="https://jakevdp.github.io/PythonDataScienceHandbook/01.05-ipython-and-shell-commands.html">IPython and Shell Commands</a></li>
-</ul></li>
-</ul></li>
-<li><em>Additional Resources</em>
-<ul>
-<li><a href="https://jakevdp.github.io/PythonDataScienceHandbook/01.08-more-ipython-resources.html">More IPython Resources</a></li>
-</ul></li>
-</ul>
-<p><br></p>
-<hr />
-<p><br></p>
 </div>
 <div id="data-types-in-python" class="section level3">
 <h3>Data Types in Python</h3>
-<ul>
-<li><em>Required Readings</em>
-<ul>
-<li>Lutz - Ch. 4 (See Canvas)</li>
-</ul></li>
-</ul>
-<p><br></p>
-<hr />
-<p><br></p>
 </div>
 <div id="control-sequences-iteration-and-functions" class="section level3">
 <h3>Control Sequences, Iteration, and Functions</h3>
-<ul>
-<li><em>Required Readings</em>
-<ul>
-<li><a href="https://swcarpentry.github.io/python-novice-inflammation/02-loop/index.html">Repeated Actions with Loops</a> - Data Carpentry</li>
-<li><a href="https://swcarpentry.github.io/python-novice-inflammation/05-cond/index.html">Making Choices</a> - Data Carpentry</li>
-<li><a href="https://swcarpentry.github.io/python-novice-inflammation/06-func/index.html">Creating Functions</a> - Data Carpentry</li>
-</ul></li>
-</ul>
-<p><br></p>
-<hr />
-<p><br></p>
 </div>
 <div id="comprehensions-and-generators" class="section level3">
 <h3>Comprehensions and Generators</h3>
-<ul>
-<li><em>Required Readings</em>
-<ul>
-<li>Lutz - Ch.14 (See Canvas)</li>
-</ul></li>
-</ul>
-<p><br></p>
-<hr />
-<p><br></p>
 </div>
 <div id="numpy" class="section level3">
 <h3>Numpy</h3>
-<!-- - _Required Readings_ -->
-<!-- - _Additional Resources_ -->
-<!-- <br> -->
-<!-- --- -->
-<!-- <br> -->
 </div>
 <div id="data-wrangling-with-pandas-part-1" class="section level3">
 <h3>Data Wrangling with Pandas (part 1)</h3>

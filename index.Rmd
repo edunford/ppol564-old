@@ -111,102 +111,14 @@ To be announced.
 
 ### Reproducibility
 
-- _Required Readings_
-  - [The Plain Person's Guide to Plain Text Social Science](http://plain-text.co/) - Kieran Healy
-    + Ch. 1: Introduction
-    + Ch. 2: Keep a Record
-    + Ch. 3: Write and Edit
-    + Ch. 4: Reproduce Work
-
-<br>
-
----
-
-<br>
-
+- [Lecture Slides](lectures/lecture_01/lecture-01.html)
 
 ### Version Control
-
-- _Required Readings_
-  - [Pro Git](https://git-scm.com/book/en/v2) - Chacon & Straub 
-    + Ch. 1: Getting Started
-    + Ch. 2: Git Basics
-
-<br>
-
----
-
-<br>
-
-
 ### Python Notebooks
-
-- _Required Readings_
-  + [Jupyter Notebook for Beginners: A tutorial](https://www.dataquest.io/blog/jupyter-notebook-tutorial/) - Pryke, Benjamin. www.dataquest.io
-  + [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/index.html) by Jake VanderPlas
-    + [Help and Documentation in IPython](https://jakevdp.github.io/PythonDataScienceHandbook/01.01-help-and-documentation.html)
-    + [IPython Magic Commands](https://jakevdp.github.io/PythonDataScienceHandbook/01.03-magic-commands.html)
-    + [Input and Output History](https://jakevdp.github.io/PythonDataScienceHandbook/01.04-input-output-history.html)
-    + [IPython and Shell Commands](https://jakevdp.github.io/PythonDataScienceHandbook/01.05-ipython-and-shell-commands.html)
-    
-- _Additional Resources_
-  + [More IPython Resources](https://jakevdp.github.io/PythonDataScienceHandbook/01.08-more-ipython-resources.html)
-
-<br>
-
----
-
-<br>
-
-
 ### Data Types in Python
-
-- _Required Readings_
-    - Lutz - Ch. 4 (See Canvas)
-
-<br>
-
----
-
-<br>
-
 ### Control Sequences, Iteration, and Functions
-
-- _Required Readings_
-    - [Repeated Actions with Loops](https://swcarpentry.github.io/python-novice-inflammation/02-loop/index.html) - Data Carpentry
-    - [Making Choices](https://swcarpentry.github.io/python-novice-inflammation/05-cond/index.html) - Data Carpentry
-    - [Creating Functions ](https://swcarpentry.github.io/python-novice-inflammation/06-func/index.html) - Data Carpentry
-
-
-<br>
-
----
-
-<br>
-
-
 ### Comprehensions and Generators
-
-- _Required Readings_
-    - Lutz - Ch.14 (See Canvas)
-
-<br>
-
----
-
-<br>
-
 ### Numpy
-
-<!-- - _Required Readings_ -->
-<!-- - _Additional Resources_ -->
-
-<!-- <br> -->
-
-<!-- --- -->
-
-<!-- <br> -->
-
 ### Data Wrangling with Pandas (part 1)
 ### Data Wrangling with Pandas (part 2)
 ### Exploratory Data Analysis
