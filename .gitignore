@@ -1,13 +1,15 @@
 # All Main Files
 assignments/
 coding_discussions/
-lectures/
+lectures/old/
 previous_versions/
 readings/
 *.DS_Store
 *.Rprofile
 *.nbgrader.log
 ppol564.Rproj
+lectures/.ipynb_checkpoints/
+
 
 # History files
 .Rhistory

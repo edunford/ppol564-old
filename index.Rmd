@@ -96,7 +96,7 @@ read_csv('syllabus/fall-2019-timeline.csv') %>%
 <br>
 <br>
 
-To be announced.
+Mondays from 5 to 5:50 in Car Bar 203.
 
 <br>
 <br>
@@ -111,7 +111,7 @@ To be announced.
 
 ### Reproducibility
 
-- [Lecture Slides](lectures/lecture_01/lecture-01.html)
+- [**Lecture Slides**](lectures/lecture_01/lecture-01.html)
 
 ### Version Control
 ### Python Notebooks
