@@ -2,10 +2,17 @@
 fontsize: 12pt
 output:
   # pdf_document: default
-  html_document: default
+  html_document:
+    css: style.css
+    theme: cerulean
+    highlight: default
+    toc_depth: 3
+    toc: true
+    toc_collapsed: true
+    toc_float: true
 ---
 
-[**Back to Course Website**](http://ericdunford.com/ppol564)
+### [Home](../index.html)
 
 
 \begin{center}

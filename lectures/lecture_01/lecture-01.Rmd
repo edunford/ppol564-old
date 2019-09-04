@@ -241,7 +241,7 @@ error = np.random.normal(size=sample_size) # simulate error
 dep_var = 1 + 2*indep_var + error 
 
 # plot values
-plt.scatter(dep_var,indep_var)
+plt.scatter(indep_var,dep_var)
 ```
 
 

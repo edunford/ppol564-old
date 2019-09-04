@@ -69,6 +69,59 @@ read_csv('syllabus/fall-2019-timeline.csv') %>%
 <br>
 <br>
 
+## Readings
+
+<br>
+<br>
+
+List of all [required reading](readings/reading-list.html).
+
+<br>
+<br>
+<br>
+<br>
+
+## Recitation
+
+<br>
+<br>
+
+Recitation meets most weeks on Mondays from 5:00 to 5:50 in **Car Bar 203**. Below is the schedule for when there is a lab. 
+
+```{r,echo=F}
+tribble(
+  ~'Lab No.', ~Date, ~` `,
+    1, "09-09", "Lab",
+    2, "09-16", "Lab",
+    3, "09-23", "Makeup Class (class does not meet earlier in the day)",
+    "","09-30", "Attend the Data Science in Action Seminar",
+    4, "10-07", "Lab",
+    "", "10-14", "No Lab - Mid-Semester Holiday",
+    "", "10-21", "Attend the Data Science in Action Seminar",
+    5, "10-28", "Lab",
+    6, "11-04", "Lab",
+    "","11-11", "Attend the Data Science in Action Seminar",
+    7, "11-18", "Lab",
+    8, "11-25", "Lab",
+    9, "12-02", "Lab",
+    10, "12-09", "Lab"
+) %>% 
+  kable(., "html", booktabs = T,align = c('c','l','l')) %>%
+  # kable(., "latex", booktabs = T,align = c('c','l','l')) %>%
+  kable_styling(latex_options = c("striped", 
+                                  "scale_down","repeat_header"),
+                full_width = T,font_size = 16) %>% 
+  column_spec(1,width = '1in') %>% 
+  column_spec(2,width = '1in') %>% 
+  column_spec(3,width = '4in') 
+```
+
+
+<br>
+<br>
+<br>
+<br>
+
 ## Contact
 
 <br>
@@ -91,19 +144,6 @@ read_csv('syllabus/fall-2019-timeline.csv') %>%
 <br>
 <br>
 
-## Lab Schedule
-
-<br>
-<br>
-
-Mondays from 5 to 5:50 in Car Bar 203.
-
-<br>
-<br>
-<br>
-<br>
-
-
 # Lecture Materials
 
 <br>
@@ -113,30 +153,30 @@ Mondays from 5 to 5:50 in Car Bar 203.
 
 - [**Lecture Slides**](lectures/lecture_01/lecture-01.html)
 
-### Version Control
-### Python Notebooks
-### Data Types in Python
-### Control Sequences, Iteration, and Functions
-### Comprehensions and Generators
-### Numpy
-### Data Wrangling with Pandas (part 1)
-### Data Wrangling with Pandas (part 2)
-### Exploratory Data Analysis
-### Vectors 
-### Trigonometry of Vectors 
-### Matrix Transformations
-### Matrix Operations and Inversions 
-### Linear Regression 
-### Eigen Decompositions
-### Decompositions in Practice 
-### Differentiation
-### Optimizing Univariate Functions
-### Optimizing Multivariate Functions
-### Gradient Decent
-### Constrained Optimization and Regularization
-### Probability 
-### Bayes Rule & Naive Bayes Algorithm
-### Simulation and MCMC Sampling
+<!-- ### Version Control -->
+<!-- ### Python Notebooks -->
+<!-- ### Data Types in Python -->
+<!-- ### Control Sequences, Iteration, and Functions -->
+<!-- ### Comprehensions and Generators -->
+<!-- ### Numpy -->
+<!-- ### Data Wrangling with Pandas (part 1) -->
+<!-- ### Data Wrangling with Pandas (part 2) -->
+<!-- ### Exploratory Data Analysis -->
+<!-- ### Vectors  -->
+<!-- ### Trigonometry of Vectors  -->
+<!-- ### Matrix Transformations -->
+<!-- ### Matrix Operations and Inversions  -->
+<!-- ### Linear Regression  -->
+<!-- ### Eigen Decompositions -->
+<!-- ### Decompositions in Practice  -->
+<!-- ### Differentiation -->
+<!-- ### Optimizing Univariate Functions -->
+<!-- ### Optimizing Multivariate Functions -->
+<!-- ### Gradient Decent -->
+<!-- ### Constrained Optimization and Regularization -->
+<!-- ### Probability  -->
+<!-- ### Bayes Rule & Naive Bayes Algorithm -->
+<!-- ### Simulation and MCMC Sampling -->
 
 <br>
 ---
