@@ -1,18 +1,18 @@
 ---
 fontsize: 12pt
 output:
-  # pdf_document: default
-  html_document:
-    css: style.css
-    theme: cerulean
-    highlight: default
-    toc_depth: 3
-    toc: true
-    toc_collapsed: true
-    toc_float: true
+  pdf_document: default
+  # html_document:
+  #   css: style.css
+  #   theme: cerulean
+  #   highlight: default
+  #   toc_depth: 3
+  #   toc: true
+  #   toc_collapsed: true
+  #   toc_float: true
 ---
 
-### [Home](../index.html)
+<!-- ### [Home](../index.html) -->
 
 
 \begin{center}
@@ -65,7 +65,7 @@ Classes will be held on **Mondays** and **Wednesdays** from **_2:00pm to 3:15pm_
 
 > Note: Class will meet later in the day on September 23rd.
 
-**Recitation** will be held most weeks on XXXXX from _X:00pm to X:00pm_ in XXXXXX. Attendance is required. A complete schedule of recitation dates can be found on the class website (see "Lab Schedule" tab @ http://ericdunford.com/ppol564/#course_outline).
+**Recitation** will be held most weeks on Mondays from _5:00pm to 5:50pm_ in Car Barn 203. Attendance is required. A complete schedule of recitation dates can be found on the class website (see "Lab Schedule" tab @ http://ericdunford.com/ppol564/#course_outline).
 
 Holidays/Breaks/Away (No class):
 
@@ -286,8 +286,8 @@ read_csv('fall-2019-timeline.csv') %>%
   select(-`Class No.`,-CD,-Assignment) %>% 
   filter(Topic != "No Class") %>% 
   {.[is.na(.)]="";.} %>% 
-  kable(., "html", booktabs = T,align = c('c','l','l')) %>%
-  # kable(., "latex", booktabs = T,align = c('c','l','l')) %>%
+  # kable(., "html", booktabs = T,align = c('c','l','l')) %>%
+  kable(., "latex", booktabs = T,align = c('c','l','l')) %>%
   kable_styling(latex_options = c("striped", 
                                   "scale_down","repeat_header"),
                 full_width = T,font_size = 11) %>% 
