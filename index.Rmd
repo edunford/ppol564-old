@@ -74,7 +74,7 @@ read_csv('syllabus/fall-2019-timeline.csv') %>%
 <br>
 <br>
 
-List of all [required reading](readings/reading-list.html).
+#### List of all [required reading](readings/reading-list.html).
 
 <br>
 <br>
