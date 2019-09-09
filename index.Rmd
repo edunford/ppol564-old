@@ -153,7 +153,13 @@ tribble(
 
 - [**Lecture Slides**](lectures/lecture_01/lecture-01.html)
 
-<!-- ### Version Control -->
+### Version Control
+
+- [**Lecture Slides**](lectures/lecture_02/lecture-02-version-control.html)
+- **Lecture Notebook**
+  - <a href="lectures/lecture_02/lecture_02_version-control.ipynb" download>Download (`.ipynb`)</a>
+  - [Google Colab](https://colab.research.google.com/drive/1rHww9HLbhnnBQlOz4V0kh5Uf7L3UWtSy)
+
 <!-- ### Python Notebooks -->
 <!-- ### Data Types in Python -->
 <!-- ### Control Sequences, Iteration, and Functions -->

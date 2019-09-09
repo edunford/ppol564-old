@@ -9,6 +9,7 @@ readings/to_canvas
 *.nbgrader.log
 ppol564.Rproj
 lectures/.ipynb_checkpoints/
+labs/labs_to_TA/
 
 
 # History files
