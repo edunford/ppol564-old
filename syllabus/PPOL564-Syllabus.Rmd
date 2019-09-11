@@ -1,18 +1,18 @@
 ---
 fontsize: 12pt
 output:
-  pdf_document: default
-  # html_document:
-  #   css: style.css
-  #   theme: cerulean
-  #   highlight: default
-  #   toc_depth: 3
-  #   toc: true
-  #   toc_collapsed: true
-  #   toc_float: true
+  # pdf_document: default
+  html_document:
+    css: style.css
+    theme: cerulean
+    highlight: default
+    toc_depth: 3
+    toc: true
+    toc_collapsed: true
+    toc_float: true
 ---
 
-<!-- ### [Home](../index.html) -->
+### [Home](../index.html)
 
 
 \begin{center}
@@ -56,7 +56,7 @@ The course covers four main topics. Topic 1 focuses on building competency with 
 
 # Time and location
 
-Classes will be held on **Mondays** and **Wednesdays** from **_2:00pm to 3:15pm_** in **Car Barn 205**: 
+Classes will be held on **Mondays** and **Wednesdays** from **_2:00pm to 3:15pm_** in **Old North G-02**: 
 
 - September 4, 9, 11, 16, 18, 23, 25, 30
 - October 2, 7, 9, 16, 21, 23, 28, 30
@@ -286,11 +286,13 @@ read_csv('fall-2019-timeline.csv') %>%
   select(-`Class No.`,-CD,-Assignment) %>% 
   filter(Topic != "No Class") %>% 
   {.[is.na(.)]="";.} %>% 
-  # kable(., "html", booktabs = T,align = c('c','l','l')) %>%
-  kable(., "latex", booktabs = T,align = c('c','l','l')) %>%
+  kable(., "html", booktabs = T,align = c('c','l','l')) %>%
+  # kable(., "latex", booktabs = T,align = c('c','l','l')) %>%
   kable_styling(latex_options = c("striped", 
                                   "scale_down","repeat_header"),
-                full_width = T,font_size = 11) %>% 
+                # full_width = T,font_size = 11
+                full_width = T,font_size =  18
+                ) %>% 
   column_spec(1,width = '.5in') %>% 
   column_spec(2,width = '1in') %>% 
   column_spec(3,width = '4in') 
