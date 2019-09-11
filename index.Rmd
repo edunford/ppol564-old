@@ -160,7 +160,12 @@ tribble(
   - <a href="lectures/lecture_02/lecture_02_version-control.ipynb" download>Download (`.ipynb`)</a>
   - [Google Colab](https://colab.research.google.com/drive/1rHww9HLbhnnBQlOz4V0kh5Uf7L3UWtSy)
 
-<!-- ### Python Notebooks -->
+### Jupyter Notebooks
+
+- **Lecture Notebook**
+  - <a href="lectures/lecture_03/lecture_03-using-jupyter-notebooks.ipynb" download>Download (`.ipynb`)
+  - [Google Colab](https://drive.google.com/open?id=1rHww9HLbhnnBQlOz4V0kh5Uf7L3UWtSy)
+  
 <!-- ### Data Types in Python -->
 <!-- ### Control Sequences, Iteration, and Functions -->
 <!-- ### Comprehensions and Generators -->
