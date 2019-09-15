@@ -49,6 +49,11 @@ output:
 - _Required Readings_
     - Lutz - Ch. 4 (See Canvas)
     
+- <font color = "grey">**_Additional Resources and Suggested Materials_**</font> 
+    - [Mutable vs Immutable Objects in Python](https://medium.com/@meghamohan/mutable-and-immutable-side-of-python-c2145cf72747)
+    - [Installing Packages using PyPi](https://packaging.python.org/tutorials/installing-packages/) (i.e. installing packages using the `pip` shell command)
+    - [Installing Packages using Anaconda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-pkgs.html) (i.e. installing packages using the `conda` shell command. Requires having an Anaconda distribution installed.)
+    
 ### Class 5: Control Sequences, Iteration, and Functions
 
 - _Required Readings_

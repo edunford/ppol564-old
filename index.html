@@ -67,8 +67,6 @@ overflow: auto;
 margin-left: 2%;
 position: fixed;
 border: 1px solid #ccc;
-webkit-border-radius: 6px;
-moz-border-radius: 6px;
 border-radius: 6px;
 }
 
@@ -96,9 +94,14 @@ font-size: 12px;
 .tocify-subheader .tocify-subheader {
 text-indent: 30px;
 }
-
 .tocify-subheader .tocify-subheader .tocify-subheader {
 text-indent: 40px;
+}
+.tocify-subheader .tocify-subheader .tocify-subheader .tocify-subheader {
+text-indent: 50px;
+}
+.tocify-subheader .tocify-subheader .tocify-subheader .tocify-subheader .tocify-subheader {
+text-indent: 60px;
 }
 
 .tocify .tocify-item > a, .tocify .nav-list .nav-header {
@@ -502,13 +505,13 @@ float: none;
 
           item.append($("<a/>", {
 
-            "text": self.text()
+            "html": self.html()
 
           }));
 
         } else {
 
-          item.text(self.text());
+          item.html(self.html());
 
         }
 
@@ -1548,8 +1551,6 @@ div.tocify {
 
 .tocify-subheader .tocify-item {
   font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
 }
 
 .tocify .list-group-item {
@@ -2147,7 +2148,7 @@ Lab
 <h3>Version Control</h3>
 <ul>
 <li><a href="lectures/lecture_02/lecture-02-version-control.html"><strong>Lecture Slides</strong></a></li>
-<li><strong>Lecture Notebook</strong>
+<li><strong>Lecture Notebook(s)</strong>
 <ul>
 <li><a href="lectures/lecture_02/lecture_02_version-control.ipynb" download>Download (<code>.ipynb</code>)</a></li>
 <li><a href="https://colab.research.google.com/drive/1rHww9HLbhnnBQlOz4V0kh5Uf7L3UWtSy">Google Colab</a></li>
@@ -2157,13 +2158,23 @@ Lab
 <div id="jupyter-notebooks" class="section level3">
 <h3>Jupyter Notebooks</h3>
 <ul>
-<li><strong>Lecture Notebook</strong>
+<li><strong>Lecture Notebook(s)</strong>
 <ul>
 <li><a href="lectures/lecture_03/lecture_03-using-jupyter-notebooks.ipynb" download>Download (<code>.ipynb</code>)</li>
 <li><a href="https://drive.google.com/open?id=1yFxut51JX4BUdn9zrpqJneNPiFxQHE8R">Google Colab</a></li>
 </ul></li>
 </ul>
-<!-- ### Data Types in Python -->
+</div>
+<div id="data-types-in-python" class="section level3">
+<h3>Data Types in Python</h3>
+<ul>
+<li><strong>Lecture Notebook(s)</strong>
+<ul>
+<li><a href="lectures/lecture_04/lecture_04_notebook01_python-data-types.ipynb" download> Data Types - Download (<code>.ipynb</code>)</li>
+<li><a href="lectures/lecture_04/Lecture_04_notebook02_manipulating-data-structures.ipynb" download> Manipulating Data Structures - Download (<code>.ipynb</code>)</li>
+<li><a href="lectures/lecture_04/lecture_04_supplement_strings-and-dates.ipynb" download> [Supplement] Strings and Dates - Download (<code>.ipynb</code>)</li>
+</ul></li>
+</ul>
 <!-- ### Control Sequences, Iteration, and Functions -->
 <!-- ### Comprehensions and Generators -->
 <!-- ### Numpy -->

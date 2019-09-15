@@ -156,17 +156,23 @@ tribble(
 ### Version Control
 
 - [**Lecture Slides**](lectures/lecture_02/lecture-02-version-control.html)
-- **Lecture Notebook**
+- **Lecture Notebook(s)**
   - <a href="lectures/lecture_02/lecture_02_version-control.ipynb" download>Download (`.ipynb`)</a>
   - [Google Colab](https://colab.research.google.com/drive/1rHww9HLbhnnBQlOz4V0kh5Uf7L3UWtSy)
 
 ### Jupyter Notebooks
 
-- **Lecture Notebook**
+- **Lecture Notebook(s)**
   - <a href="lectures/lecture_03/lecture_03-using-jupyter-notebooks.ipynb" download>Download (`.ipynb`)
   - [Google Colab](https://drive.google.com/open?id=1yFxut51JX4BUdn9zrpqJneNPiFxQHE8R)
   
-<!-- ### Data Types in Python -->
+### Data Types in Python
+
+- **Lecture Notebook(s)**
+  - <a href="lectures/lecture_04/lecture_04_notebook01_python-data-types.ipynb" download> Data Types - Download (`.ipynb`)
+  - <a href="lectures/lecture_04/Lecture_04_notebook02_manipulating-data-structures.ipynb" download> Manipulating Data Structures - Download (`.ipynb`)
+  - <a href="lectures/lecture_04/lecture_04_supplement_strings-and-dates.ipynb" download> [Supplement] Strings and Dates - Download (`.ipynb`)
+
 <!-- ### Control Sequences, Iteration, and Functions -->
 <!-- ### Comprehensions and Generators -->
 <!-- ### Numpy -->
