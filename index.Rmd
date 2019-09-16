@@ -176,6 +176,8 @@ tribble(
     - [Google Colab](https://drive.google.com/open?id=1PF2Nm3ZnQWEFHa19htc5Xv695aXixl-4)
   - <a href="lectures/lecture_04/lecture_04_supplement_strings-and-dates.ipynb" download> [Supplement] Strings and Dates - Download (`.ipynb`) 
     - [Google Colab](https://drive.google.com/open?id=1q_mqmxGXKP4JMH4-rcs6A5RJw-kzE-lo)
+- **Lab Material**
+  - <a href="labs/lab_02/lab_02_materials.zip" download> Download (`.zip`) 
 
 <!-- ### Control Sequences, Iteration, and Functions -->
 <!-- ### Comprehensions and Generators -->
