@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title> PPOL564 | Data Science I - Foundations   Data Types in Python</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="  Prof. Eric Dunford  ◆  Georgetown University  ◆  McCourt School of Public Policy  ◆  eric.dunford@georgetown.edu" />
+    <link rel="stylesheet" href="gu-theme.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# <font class = "title-panel"> PPOL564 | Data Science I - Foundations </font> <font size=100, face="bold"> Data Types in Python </font> <br> <br>
+### <font class = "title-footer">  Prof. Eric Dunford  ◆  Georgetown University  ◆  McCourt School of Public Policy  ◆  <a href="mailto:eric.dunford@georgetown.edu" class="email">eric.dunford@georgetown.edu</a></font>
+
+---
+
+
+
+
+layout: true
+
+&lt;div class="slide-footer"&gt;&lt;span&gt; 
+PPOL564 | Data Science I - Foundations
+
+&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;
+
+Class 4 &lt;!-- Week of the Footer Here --&gt;
+
+&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;
+
+Data Types in Python &lt;!-- Title of the lecture here --&gt;
+
+&lt;/span&gt;&lt;/div&gt; 
+
+
+
+---
+class: outline
+
+# Outline for Today 
+
+- **_Objects_**
+
+- Cover the **_standard data types_** in Python 
+
+- **_Mutable_** vs. _**Immutable_** data types
+
+- **_Copies_**
+
+- Modules
+
+- **Manipulating _Mutable_ Data Structures** (see other notebook)
+ 
+- See supplement notebook for a more detailed look at the functionality of **_strings and dates_**. 
+
+---
+
+class: newsection
+
+# Objects
+
+---
+
+# Objects
+
+- `=` assignment operator. 
+
+
+- An objects "type" is defined at runtime; also known as "ducktyping"
+  - differs from other languages where type must be made explicit; Python is a dynamically typed language.
+  - type cannot be changed once established.
+  - An objects class provides a blueprint for object behavior and function.
+  
+- reference is assigned to an object (e.g. below,  `x` references the object `4` in the statement `x = 4`)
+
+- there can be multiple references to the same object (more on this below)
+
+- objects are assigned a unique object id when initiated.
+
+---
+
+# Objects
+
+![:space 5]
+
+
+```python
+x = 4
+x
+```
+
+```
+## 4
+```
+
+--
+
+
+```python
+type(x)
+```
+
+```
+## &lt;class 'int'&gt;
+```
+
+--
+
+
+```python
+id(x) # Identity of the object
+```
+
+```
+## 4477832288
+```
+
+---
+
+# Objects
+
+Instantiate objects upon assignment.
+
+
+```python
+x = 4
+```
+
+--
+
+The class defines how the object behaves to different opertions. We use the pointer `.` to access an objects methods. 
+
+
+```python
+x.
+  |
+  V
+   __add__()  # method dictating behavior to the `+` operator 
+   __mult__() # method dictating behavior to the `*` operator 
+   __mod__()  # method dictating behavior to the `%` operator 
+   __eq__()   # method dictating behavior to the `==` operator 
+     .
+     .
+     .
+```
+
+
+---
+
+# Objects
+
+Instantiate objects upon assignment.
+
+
+```python
+x = [1,2,3,4]
+```
+
+Data classes provide a blueprint for object behavior and functionality (methods). 
+
+
+```python
+x.
+  |
+  V
+   append()  # method for appending entries 
+   clear()   # method clearing all values from object instance 
+   copy()    # method for creating a shallow copy 
+   sort()    # method sorting values 
+   pop()     # method for removing values for use
+   reverse() # method sorting values in reverse
+     .
+     .
+     .
+```
+
+---
+
+class: newsection
+
+# Data Types
+
+---
+
+# Data Types
+
+![:space 10]
+
+**_Two ways of instanitating a data class in Python_**
+
+![:space 5]
+
+1. **Literals**: syntatic representation in Python, e.g. `[]`
+
+2. **Constructors**: class constructor, e.g. `list()`
+
+---
+
+# Scalar Data Types
+
+![:space 15]
+.center[
+|  type | Description | Example
+|:-----:|:-------------:|:-----------:|
+| `int`| integer types | `4` |
+|`float`| 64-bit floating point numbers | `4.567` |
+|`bool`| boonlean logical values | `True`|
+| `None`|  null object (serves as a valuable place holder) | `None` |
+]
+
+---
+
+## `int` type
+
+`int` literal
+
+```python
+x = 1
+type(x)
+```
+
+```
+## &lt;class 'int'&gt;
+```
+
+`int` constructor
+
+```python
+int(3.4)
+```
+
+```
+## 3
+```
+
+
+```python
+dir(x)
+```
+
+```
+## ['__abs__', '__add__', '__and__', '__bool__', '__ceil__', '__class__', '__delattr__', '__dir__', '__divmod__', '__doc__', '__eq__', '__float__', '__floor__', '__floordiv__', '__format__', '__ge__', '__getattribute__', '__getnewargs__', '__gt__', '__hash__', '__index__', '__init__', '__init_subclass__', '__int__', '__invert__', '__le__', '__lshift__', '__lt__', '__mod__', '__mul__', '__ne__', '__neg__', '__new__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__round__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__sizeof__', '__str__', '__sub__', '__subclasshook__', '__truediv__', '__trunc__', '__xor__', 'bit_length', 'conjugate', 'denominator', 'from_bytes', 'imag', 'numerator', 'real', 'to_bytes']
+```
+
+---
+
+## `float` type
+
+`float` literal
+
+```python
+x = 1.0
+type(x)
+```
+
+```
+## &lt;class 'float'&gt;
+```
+
+`float` constructor
+
+```python
+float(3)
+```
+
+```
+## 3.0
+```
+
+
+```python
+dir(x)
+```
+
+```
+## ['__abs__', '__add__', '__bool__', '__class__', '__delattr__', '__dir__', '__divmod__', '__doc__', '__eq__', '__float__', '__floordiv__', '__format__', '__ge__', '__getattribute__', '__getformat__', '__getnewargs__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__int__', '__le__', '__lt__', '__mod__', '__mul__', '__ne__', '__neg__', '__new__', '__pos__', '__pow__', '__radd__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rmod__', '__rmul__', '__round__', '__rpow__', '__rsub__', '__rtruediv__', '__set_format__', '__setattr__', '__sizeof__', '__str__', '__sub__', '__subclasshook__', '__truediv__', '__trunc__', 'as_integer_ratio', 'conjugate', 'fromhex', 'hex', 'imag', 'is_integer', 'real']
+```
+
+---
+
+## `bool` type
+
+`float` literal
+
+```python
+x = True
+type(x)
+```
+
+```
+## &lt;class 'bool'&gt;
+```
+
+`bool` constructor
+
+```python
+bool(0)
+```
+
+```
+## False
+```
+
+
+```python
+dir(x)
+```
+
+```
+## ['__abs__', '__add__', '__and__', '__bool__', '__ceil__', '__class__', '__delattr__', '__dir__', '__divmod__', '__doc__', '__eq__', '__float__', '__floor__', '__floordiv__', '__format__', '__ge__', '__getattribute__', '__getnewargs__', '__gt__', '__hash__', '__index__', '__init__', '__init_subclass__', '__int__', '__invert__', '__le__', '__lshift__', '__lt__', '__mod__', '__mul__', '__ne__', '__neg__', '__new__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__round__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__sizeof__', '__str__', '__sub__', '__subclasshook__', '__truediv__', '__trunc__', '__xor__', 'bit_length', 'conjugate', 'denominator', 'from_bytes', 'imag', 'numerator', 'real', 'to_bytes']
+```
+
+---
+
+## `None` type
+
+`None` literal
+
+```python
+x = None
+type(x)
+```
+
+```
+## &lt;class 'NoneType'&gt;
+```
+
+
+
+```python
+dir(x)
+```
+
+```
+## ['__bool__', '__class__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__']
+```
+
+
+```python
+x is None
+```
+
+```
+## True
+```
+
+---
+
+# Collection Data Types
+
+![:space 10]
+
+.center[
+|  Type   |  Description  | Example | Mutable | 
+|:------:|:------:|:------:|:------:|
+| `list` | heterogeneous sequences of objects | `[1,2,3]` | &amp;#10003; |
+| `str`  | sequences of characters | `"A word"` | &amp;#10008; |
+| `dicts`|  associative array of key/value mappings | `{"a": 1}`| keys &amp;#10008; values  &amp;#10003;
+| `sets` | unordered collection of _distinct_ objects | `{1,2,3}` | &amp;#10003; |
+|`tuples`| heterogeneous sequence | `(1,2)` | &amp;#10008; | 
+]
+
+![:space 2]
+
+We can access the information contained within python collection types using a 0-based index if the container contains an `.index()` method
+
+---
+
+## `list` type
+
+Allows for heterogeneous membership in the various object types
+
+&lt;br&gt;
+`list` literal
+
+```python
+x = [1, 2.2, "str", True, None] 
+type(x)
+```
+
+```
+## &lt;class 'list'&gt;
+```
+
+
+`list` constructor
+
+
+```python
+x = list("This")
+type(x)
+```
+
+```
+## &lt;class 'list'&gt;
+```
+
+---
+
+## `str` type
+
+
+&lt;br&gt;
+`str` literal
+
+```python
+x = "This is a sentence"
+type(x)
+```
+
+```
+## &lt;class 'str'&gt;
+```
+
+
+`str` constructor
+
+
+```python
+x = str(12345)
+type(x)
+```
+
+```
+## &lt;class 'str'&gt;
+```
+
+
+---
+
+## `dict` type
+
+Associative array of key-value pairs; indexed ("hashed") by the keys
+
+`dict` literal
+
+```python
+x = {'a':1,'b':2,'c':-2}
+type(x)
+```
+
+```
+## &lt;class 'dict'&gt;
+```
+
+
+`dict` constructor
+
+
+```python
+x = dict(a = 1,b = 2, c= -2)
+type(x)
+```
+
+```
+## &lt;class 'dict'&gt;
+```
+
+---
+
+## `set` type
+
+Unordered collection of unique elements
+
+`set` literal
+
+```python
+x = {1,2,-2}
+type(x)
+```
+
+```
+## &lt;class 'set'&gt;
+```
+
+
+`set` constructor
+
+
+```python
+x = set([1,2,-2])
+type(x)
+```
+
+```
+## &lt;class 'set'&gt;
+```
+
+
+---
+
+## `tuple` type
+
+Heterogeneous but immutable collection of other data types.
+
+`tuple` literal
+
+```python
+x = (1,2)
+type(x)
+```
+
+```
+## &lt;class 'tuple'&gt;
+```
+
+
+`set` constructor
+
+
+```python
+x = tuple([1,2,-2])
+type(x)
+```
+
+```
+## &lt;class 'tuple'&gt;
+```
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="macros.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"countIncrementalSlides": true,
+"highlightLines": true
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

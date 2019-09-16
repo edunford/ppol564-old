@@ -168,6 +168,7 @@ tribble(
   
 ### Data Types in Python
 
+- [**Lecture Slides**](lectures/lecture_04/lecture_04-python-data-types.html)
 - **Lecture Notebook(s)**
   - <a href="lectures/lecture_04/lecture_04_notebook01_python-data-types.ipynb" download> Data Types - Download (`.ipynb`)
   - <a href="lectures/lecture_04/Lecture_04_notebook02_manipulating-data-structures.ipynb" download> Manipulating Data Structures - Download (`.ipynb`)
