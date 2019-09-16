@@ -171,11 +171,11 @@ tribble(
 - [**Lecture Slides**](lectures/lecture_04/lecture_04-python-data-types.html)
 - **Lecture Notebook(s)**
   - <a href="lectures/lecture_04/lecture_04_notebook01_python-data-types.ipynb" download> Data Types - Download (`.ipynb`)
-    - [Colab](https://drive.google.com/open?id=1Va3MSoGEJFlCKoQdTcGGHqsnD_akh_-a)
+    - [Google Colab](https://drive.google.com/open?id=1Va3MSoGEJFlCKoQdTcGGHqsnD_akh_-a)
   - <a href="lectures/lecture_04/Lecture_04_notebook02_manipulating-data-structures.ipynb" download> Manipulating Data Structures - Download (`.ipynb`)
-    - [Colab](https://drive.google.com/open?id=1PF2Nm3ZnQWEFHa19htc5Xv695aXixl-4)
+    - [Google Colab](https://drive.google.com/open?id=1PF2Nm3ZnQWEFHa19htc5Xv695aXixl-4)
   - <a href="lectures/lecture_04/lecture_04_supplement_strings-and-dates.ipynb" download> [Supplement] Strings and Dates - Download (`.ipynb`) 
-    - [Colab](https://drive.google.com/open?id=1q_mqmxGXKP4JMH4-rcs6A5RJw-kzE-lo)
+    - [Google Colab](https://drive.google.com/open?id=1q_mqmxGXKP4JMH4-rcs6A5RJw-kzE-lo)
 
 <!-- ### Control Sequences, Iteration, and Functions -->
 <!-- ### Comprehensions and Generators -->
