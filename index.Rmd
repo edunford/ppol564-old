@@ -170,16 +170,28 @@ tribble(
 
 - [**Lecture Slides**](lectures/lecture_04/lecture_04-python-data-types.html)
 - **Lecture Notebook(s)**
-  - <a href="lectures/lecture_04/lecture_04_notebook01_python-data-types.ipynb" download> Data Types - Download (`.ipynb`)
+  - **_Data Types_**
+    - <a href="lectures/lecture_04/lecture_04_notebook01_python-data-types.ipynb" download> Download (`.ipynb`)</a>
     - [Google Colab](https://drive.google.com/open?id=1Va3MSoGEJFlCKoQdTcGGHqsnD_akh_-a)
-  - <a href="lectures/lecture_04/Lecture_04_notebook02_manipulating-data-structures.ipynb" download> Manipulating Data Structures - Download (`.ipynb`)
+  - **_Manipulating Data Structures_** 
+    - <a href="lectures/lecture_04/Lecture_04_notebook02_manipulating-data-structures.ipynb" download> Download (`.ipynb`) </a>
     - [Google Colab](https://drive.google.com/open?id=1PF2Nm3ZnQWEFHa19htc5Xv695aXixl-4)
-  - <a href="lectures/lecture_04/lecture_04_supplement_strings-and-dates.ipynb" download> [Supplement] Strings and Dates - Download (`.ipynb`) 
+  - [Supplement] **_Strings and Dates_**
+    - <a href="lectures/lecture_04/lecture_04_supplement_strings-and-dates.ipynb" download> Download (`.ipynb`) </a>
     - [Google Colab](https://drive.google.com/open?id=1q_mqmxGXKP4JMH4-rcs6A5RJw-kzE-lo)
 - **Lab Material**
-  - <a href="labs/lab_02/lab_02_materials.zip" download> Download (`.zip`) 
+  - <a href="labs/lab_02/lab_02_materials.zip" download> Download (`.zip`)  </a>
 
-<!-- ### Control Sequences, Iteration, and Functions -->
+### Control Sequences, Iteration, and Functions
+
+- **Lecture Notebook(s)**
+  - **_Control Sequeneces and Iteration_**
+    - <a href="lectures/lecture_05/Lecture_05_Notebook01_control-sequences-and-iteration.ipynb" download> Download (`.ipynb`)</a>
+    - [Google Colab](https://drive.google.com/open?id=1hsAHijV-G8t8FSGEzfR8xa508rj4vkZU)
+  - **_Functions_** 
+    - <a href="lectures/lecture_05/lectures/lecture_05/Lecture_05_Notebook02_functions.ipynb" download> Download (`.ipynb`)</a>
+    - [Google Colab](https://drive.google.com/open?id=1u3m_GSMlR8qc9ILu4uW0tEDn0hb_mtIN)
+
 <!-- ### Comprehensions and Generators -->
 <!-- ### Numpy -->
 <!-- ### Data Wrangling with Pandas (part 1) -->
