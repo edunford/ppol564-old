@@ -185,12 +185,13 @@ tribble(
 ### Control Sequences, Iteration, and Functions
 
 - **Lecture Notebook(s)**
-  - **_Control Sequeneces and Iteration_**
+  - **_Control Sequences and Iteration_**
     - <a href="lectures/lecture_05/Lecture_05_Notebook01_control-sequences-and-iteration.ipynb" download> Download (`.ipynb`)</a>
     - [Google Colab](https://drive.google.com/open?id=1hsAHijV-G8t8FSGEzfR8xa508rj4vkZU)
   - **_Functions_** 
     - <a href="lectures/lecture_05/lectures/lecture_05/Lecture_05_Notebook02_functions.ipynb" download> Download (`.ipynb`)</a>
     - [Google Colab](https://drive.google.com/open?id=1u3m_GSMlR8qc9ILu4uW0tEDn0hb_mtIN)
+
 
 <!-- ### Comprehensions and Generators -->
 <!-- ### Numpy -->
