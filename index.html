@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -1387,7 +1388,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -1461,48 +1461,9 @@ summary {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <style type="text/css">
 
@@ -2210,7 +2171,24 @@ Lab
 </ul></li>
 </ul></li>
 </ul>
-<!-- ### Comprehensions and Generators -->
+</div>
+<div id="comprehensions-and-generators" class="section level3">
+<h3>Comprehensions and Generators</h3>
+<ul>
+<li><strong>Lecture Notebook(s)</strong>
+<ul>
+<li><strong><em>Comprehensions, Generators, and Itertools</em></strong>
+<ul>
+<li><a href="lectures/lecture_06/lecture_06_Notebook01_comprehensions-generators-and-itertools.ipynb" download> Download (<code>.ipynb</code>)</a></li>
+<li><a href="https://drive.google.com/open?id=1WZOdN_E15aC6zOCScGFfWeA6O_BBVSwf">Google Colab</a></li>
+</ul></li>
+<li><strong><em>File Management</em></strong>
+<ul>
+<li><a href="lectures/lecture_06/Lecture_06_Notebook02_file-management_MATERIALS.zip" download> Download (<code>.zip</code>) - <em>contains data</em></a></li>
+<li><a href="https://drive.google.com/open?id=1dfx_JTBCPXZiHLxzpFphcnI8hhPyKgDA">Google Colab</a></li>
+</ul></li>
+</ul></li>
+</ul>
 <!-- ### Numpy -->
 <!-- ### Data Wrangling with Pandas (part 1) -->
 <!-- ### Data Wrangling with Pandas (part 2) -->
@@ -2254,6 +2232,49 @@ $(document).ready(function () {
 });
 
 
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
