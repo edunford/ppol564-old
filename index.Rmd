@@ -194,6 +194,8 @@ tribble(
 
 ### Comprehensions and Generators
 
+_Class will meet during the scheduled lab (5:00 - 5:50pm). No class at the regular 2:00pm time slot._
+
 - **Lecture Notebook(s)**
   - **_Comprehensions, Generators, and Itertools_**
     - <a href="lectures/lecture_06/lecture_06_Notebook01_comprehensions-generators-and-itertools.ipynb" download> Download (`.ipynb`)</a>
