@@ -158,13 +158,13 @@ tribble(
 - [**Lecture Slides**](lectures/lecture_02/lecture-02-version-control.html)
 - **Lecture Notebook(s)**
   - <a href="lectures/lecture_02/lecture_02_version-control.ipynb" download>Download (`.ipynb`)</a>
-  - [Google Colab](https://colab.research.google.com/drive/1rHww9HLbhnnBQlOz4V0kh5Uf7L3UWtSy)
+  - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://colab.research.google.com/drive/1rHww9HLbhnnBQlOz4V0kh5Uf7L3UWtSy)
 
 ### Jupyter Notebooks
 
 - **Lecture Notebook(s)**
   - <a href="lectures/lecture_03/lecture_03-using-jupyter-notebooks.ipynb" download>Download (`.ipynb`)
-  - [Google Colab](https://drive.google.com/open?id=1yFxut51JX4BUdn9zrpqJneNPiFxQHE8R)
+  - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1yFxut51JX4BUdn9zrpqJneNPiFxQHE8R)
   
 ### Data Types in Python
 
@@ -172,13 +172,13 @@ tribble(
 - **Lecture Notebook(s)**
   - **_Data Types_**
     - <a href="lectures/lecture_04/lecture_04_notebook01_python-data-types.ipynb" download> Download (`.ipynb`)</a>
-    - [Google Colab](https://drive.google.com/open?id=1Va3MSoGEJFlCKoQdTcGGHqsnD_akh_-a)
+    - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1Va3MSoGEJFlCKoQdTcGGHqsnD_akh_-a)
   - **_Manipulating Data Structures_** 
     - <a href="lectures/lecture_04/Lecture_04_notebook02_manipulating-data-structures.ipynb" download> Download (`.ipynb`) </a>
-    - [Google Colab](https://drive.google.com/open?id=1PF2Nm3ZnQWEFHa19htc5Xv695aXixl-4)
+    - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1PF2Nm3ZnQWEFHa19htc5Xv695aXixl-4)
   - [Supplement] **_Strings and Dates_**
     - <a href="lectures/lecture_04/lecture_04_supplement_strings-and-dates.ipynb" download> Download (`.ipynb`) </a>
-    - [Google Colab](https://drive.google.com/open?id=1q_mqmxGXKP4JMH4-rcs6A5RJw-kzE-lo)
+    - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1q_mqmxGXKP4JMH4-rcs6A5RJw-kzE-lo)
 - **Lab Material**
   - <a href="labs/lab_02/lab_02_materials.zip" download> Download (`.zip`)  </a>
 
@@ -187,26 +187,28 @@ tribble(
 - **Lecture Notebook(s)**
   - **_Control Sequences and Iteration_**
     - <a href="lectures/lecture_05/Lecture_05_Notebook01_control-sequences-and-iteration.ipynb" download> Download (`.ipynb`)</a>
-    - [Google Colab](https://drive.google.com/open?id=1hsAHijV-G8t8FSGEzfR8xa508rj4vkZU)
+    - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1hsAHijV-G8t8FSGEzfR8xa508rj4vkZU)
   - **_Functions_** 
     - <a href="lectures/lecture_05/Lecture_05_Notebook02_functions.ipynb" download> Download (`.ipynb`)</a>
-    - [Google Colab](https://drive.google.com/open?id=1u3m_GSMlR8qc9ILu4uW0tEDn0hb_mtIN)
+    - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1u3m_GSMlR8qc9ILu4uW0tEDn0hb_mtIN)
 
 ### Comprehensions and Generators
-
-_Class will meet during the scheduled lab (5:00 - 5:50pm). No class at the regular 2:00pm time slot._
 
 - **Lecture Notebook(s)**
   - **_Comprehensions, Generators, and Itertools_**
     - <a href="lectures/lecture_06/lecture_06_Notebook01_comprehensions-generators-and-itertools.ipynb" download> Download (`.ipynb`)</a>
-    - [Google Colab](https://drive.google.com/open?id=1WZOdN_E15aC6zOCScGFfWeA6O_BBVSwf)
+    - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1WZOdN_E15aC6zOCScGFfWeA6O_BBVSwf)
   - **_File Management_**
-    - <a href="lectures/lecture_06/Lecture_06_Notebook02_file-management_MATERIALS.zip" download> Download (`.zip`) - _contains data_</a>
-    - [Google Colab](https://drive.google.com/open?id=1dfx_JTBCPXZiHLxzpFphcnI8hhPyKgDA)
+    - <a href="lectures/lecture_06/Lecture_06_Notebook02_file-management_MATERIALS.zip" download> Download (`.zip`) - _contains data_</a> 
+    - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1dfx_JTBCPXZiHLxzpFphcnI8hhPyKgDA)
+    
+### Numpy
+
+- **Lecture Notebook(s)**
+  - <a href="lectures/lecture_07/Lecture_7_Numpy.ipynb" download> Download (`.ipynb`)</a>
+  - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1ELq-vKTU7_-hA4nqxvfGEJFDbaeK0hC5)
 
 
-
-<!-- ### Numpy -->
 <!-- ### Data Wrangling with Pandas (part 1) -->
 <!-- ### Data Wrangling with Pandas (part 2) -->
 <!-- ### Exploratory Data Analysis -->
