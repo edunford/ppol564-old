@@ -1,18 +1,18 @@
 ---
 fontsize: 12pt
 output:
-  # pdf_document: default
-  html_document:
-    css: style.css
-    theme: cerulean
-    highlight: default
-    toc_depth: 3
-    toc: true
-    toc_collapsed: true
-    toc_float: true
+  pdf_document: default
+  # html_document:
+  #   css: style.css
+  #   theme: cerulean
+  #   highlight: default
+  #   toc_depth: 3
+  #   toc: true
+  #   toc_collapsed: true
+  #   toc_float: true
 ---
 
-### [Home](../index.html)
+<!-- ### [Home](../index.html) -->
 
 
 \begin{center}
@@ -131,7 +131,7 @@ All submission must be posted by Friday by 11:59PM. All coding responses to anot
    6  |        Week 9         |  October 30
    7  |        Week 11        |  November 13
    
-The goal of the coding discussions is to apply a concept learned during the week in a way that helps build a greater level of programming fluency. Programming skills are honed through active usage and repetition. Learning to read other people’s code and detecting issues is vital to successful collaborations in applied work. The point is not to be “right” necessarily but rather to try, learn, and collaborate. As such, when receiving suggested edit requests
+The goal of the coding discussions is to apply a concept learned during the week in a way that helps build a greater level of programming fluency. Programming skills are honed through active usage and repetition. Learning to read other people’s code and detecting issues is vital to successful collaborations in applied work. The point is not to be “right” necessarily but rather to try, learn, and collaborate. 
 
 **Problem Sets** (35%): There will be five assignments throughout the course of the semester. These assignments will take the form of questions that the student must complete independently or with assigned partners (See Course Policies "Homework Partner"). The goal of the assignment is to reinforce the student’s comprehension of the materials covered in each section. All assignments will be posted Wednesday afternoon by 5:00PM on the class CANVAS site for the weeks marked on the syllabus. Problem sets are due on the date and time posted on Canvas and must be submitted on Canvas. Generally, a week will be allotted to complete each assignment. Late assignments will be penalized a letter grade for every day they are overdue.
 
@@ -286,12 +286,12 @@ read_csv('fall-2019-timeline.csv') %>%
   select(-`Class No.`,-CD,-Assignment) %>% 
   filter(Topic != "No Class") %>% 
   {.[is.na(.)]="";.} %>% 
-  kable(., "html", booktabs = T,align = c('c','l','l')) %>%
-  # kable(., "latex", booktabs = T,align = c('c','l','l')) %>%
+  # kable(., "html", booktabs = T,align = c('c','l','l')) %>%
+  kable(., "latex", booktabs = T,align = c('c','l','l')) %>%
   kable_styling(latex_options = c("striped", 
                                   "scale_down","repeat_header"),
-                # full_width = T,font_size = 11
-                full_width = T,font_size =  18
+                full_width = T,font_size = 11
+                # full_width = T,font_size =  18
                 ) %>% 
   column_spec(1,width = '.5in') %>% 
   column_spec(2,width = '1in') %>% 
