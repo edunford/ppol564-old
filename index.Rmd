@@ -217,9 +217,15 @@ tribble(
   - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_08/Lecture_08-data-wrangling-with-pandas_part01.html)
 
 
-<!--  -->
+### Data Wrangling with Pandas (part 2)
 
-<!-- ### Data Wrangling with Pandas (part 2) -->
+- **Lecture Notebook(s)**
+  - <a href="lectures/lecture_09/lecture_09_data-wrangling-with-pandas_part02.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
+  - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1utyLA_r-tK7Q8J5Kej5AhN7anFt75vDo)
+  - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_09/lecture_09_data-wrangling-with-pandas_part02.html)
+  
+  
+  
 <!-- ### Exploratory Data Analysis -->
 <!-- ### Vectors  -->
 <!-- ### Trigonometry of Vectors  -->

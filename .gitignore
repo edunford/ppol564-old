@@ -7,11 +7,20 @@ readings/to_canvas
 *.DS_Store
 *.Rprofile
 *.nbgrader.log
+.ipynb_checkpoints/
 ppol564.Rproj
-lectures/.ipynb_checkpoints/
+lectures/.ipynb_checkpoints
+lectures/slide_template
+lectures/lecture_05/Supplemental_Materials
+lectures/lecture_08/example_data.dta
+lectures/lecture_08/example_data.csv
+lectures/lecture_08/storm_data.csv
 labs/labs_to_TA/
 *ipynb_checkpoints
 admin/
+labs/lab_02/*Key*
+labs/lab_02/*instructions*
+
 
 
 # History files
