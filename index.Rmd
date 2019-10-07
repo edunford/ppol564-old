@@ -207,7 +207,7 @@ tribble(
 - **Lecture Notebook(s)**
   - <a href="lectures/lecture_07/Lecture_7_Numpy.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
   - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1ELq-vKTU7_-hA4nqxvfGEJFDbaeK0hC5)
-
+  
 
 ### Data Wrangling with Pandas (part 1)
 
@@ -231,6 +231,9 @@ tribble(
   - <a href="lectures/lecture_10/lecture_10-data-exploration.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
   - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1fD3918E75X3RcSjKAoMmRPcZizaI2lo4)
   - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_10/lecture_10-data-exploration.html)
+  
+- **Lab Materials**
+  - <a href="labs/lab_03/lab03_materials.zip" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
 
 <!-- ### Vectors  -->
 <!-- ### Trigonometry of Vectors  -->

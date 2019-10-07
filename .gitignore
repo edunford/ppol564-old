@@ -20,8 +20,9 @@ labs/labs_to_TA/
 admin/
 labs/lab_02/*Key*
 labs/lab_02/*instructions*
-
-
+*_Key*
+lab03_materials/
+lab_02_materials/
 
 # History files
 .Rhistory
@@ -29,6 +30,7 @@ labs/lab_02/*instructions*
 
 # Session Data files
 .RData
+
 
 # Example code in package build process
 *-Ex.R
