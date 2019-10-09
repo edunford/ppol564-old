@@ -235,7 +235,14 @@ tribble(
 - **Lab Materials**
   - <a href="labs/lab_03/lab03_materials.zip" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
 
-<!-- ### Vectors  -->
+### Vectors
+
+- **Lecture Notebook(s)**
+  - <a href="lectures/lecture_11/Lecture_11-vectors.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
+  - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1rUN2w3pcziwptC_RPrtEzOlPe49sidrg)
+  - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_11/Lecture_11-vectors.html)
+
+
 <!-- ### Trigonometry of Vectors  -->
 <!-- ### Matrix Transformations -->
 <!-- ### Matrix Operations and Inversions  -->
