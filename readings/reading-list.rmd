@@ -127,7 +127,7 @@ output:
 ### Class 15: Linear Regression 
 
 - _Required Readings_
-  - TBA
+  - [The Linear Algebra View of Least-Squares Regression](        * https://medium.com/@andrew.chamberlain/the-linear-algebra-view-of-least-squares-regression-f67044b7f39b) - Andrew Chamberlain
 
 ### Class 16: Eigen Decompositions
 
