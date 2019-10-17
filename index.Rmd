@@ -93,18 +93,18 @@ tribble(
   ~'Lab No.', ~Date, ~` `,
     1, "09-09", "Lab",
     2, "09-16", "Lab",
-    3, "09-23", "Makeup Class (class does not meet earlier in the day)",
+    "", "09-23", "Makeup Class (class does not meet earlier in the day)",
     "","09-30", "Attend the Data Science in Action Seminar",
-    4, "10-07", "Lab",
+    3, "10-07", "Lab",
     "", "10-14", "No Lab - Mid-Semester Holiday",
-    5, "10-21", "Lab",
-    6, "10-28", "Lab",
-    7, "11-04", "Lab",
+    4, "10-21", "Lab",
+    5, "10-28", "Lab",
+    6, "11-04", "Lab",
     "","11-11", "Attend the Data Science in Action Seminar",
     "", "11-18", "Attend the Data Science in Action Seminar",
-    8, "11-25", "Lab",
-    9, "12-02", "Lab",
-    10, "12-09", "Lab"
+    7, "11-25", "Lab",
+    8, "12-02", "Lab",
+    9, "12-09", "Lab (Review - Attendance Optional)"
 ) %>% 
   kable(., "html", booktabs = T,align = c('c','l','l')) %>%
   # kable(., "latex", booktabs = T,align = c('c','l','l')) %>%
