@@ -60,12 +60,12 @@ class LinearAlgebra:
 
             # Plot grid lines
             for i in range(-(extent),(extent)+1):
-                self.grid_line(np.array([0,1]),scale=extent,y_nudge=i,alpha=.5,color="steelblue")
-                self.grid_line(np.array([1,0]),scale=extent,x_nudge=i,alpha=.5,color="steelblue")
+                self.grid_line(np.array([0,1]),scale=extent,y_nudge=i,alpha=.5,color="black")
+                self.grid_line(np.array([1,0]),scale=extent,x_nudge=i,alpha=.5,color="black")
 
         else:
-            self.grid_line(np.array([1,0]),scale=extent,lwd=1.5,color="steelblue")
-            self.grid_line(np.array([0,1]),scale=extent,lwd=1.5,color="steelblue")
+            self.grid_line(np.array([1,0]),scale=extent,lwd=1.5)
+            self.grid_line(np.array([0,1]),scale=extent,lwd=1.5)
 
 
 
