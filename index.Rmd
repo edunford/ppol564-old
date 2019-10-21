@@ -207,7 +207,7 @@ tribble(
 - **Lecture Notebook(s)**
   - <a href="lectures/lecture_07/Lecture_7_Numpy.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
   - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1ELq-vKTU7_-hA4nqxvfGEJFDbaeK0hC5)
-  
+  - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_07/Lecture_7_Numpy.html)
 
 ### Data Wrangling with Pandas (part 1)
 
@@ -251,7 +251,16 @@ tribble(
   - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_12/Lecture_12-trigonometry-of-vectors.html)
 
 
-<!-- ### Matrix Transformations -->
+### Matrix Transformations
+
+
+- **Lecture Notebook(s)**
+  - <a href="lectures/lecture_13/Lecture_13-Matrix-Transformation.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
+  - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1osqDs-i85AjumpE9VEov2CKHQx2WyAuz)
+  - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_13/Lecture_13-Matrix-Transformation.html)
+
+
+
 <!-- ### Matrix Operations and Inversions  -->
 <!-- ### Linear Regression  -->
 <!-- ### Eigen Decompositions -->
