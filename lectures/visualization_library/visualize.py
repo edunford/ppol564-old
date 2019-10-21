@@ -25,7 +25,7 @@ class LinearAlgebra:
 
     def grid_line(self,unit_vector=np.array([1,0]),
                   scale=1,y_nudge=0,x_nudge=0,
-                  alpha=1,lwd=1,color="black"):
+                  alpha=1,lwd=1,color="steelblue"):
         '''Generate grid lines on plot'''
         axis = self.basis.dot(unit_vector)
         axis_length = np.linalg.norm(axis)
