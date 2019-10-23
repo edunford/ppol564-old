@@ -262,7 +262,20 @@ tribble(
 - **Lab Materials**
   - <a href="labs/lab_04/lab04_materials.zip" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
 
-<!-- ### Matrix Operations and Inversions  -->
+### Matrix Operations and Inversions
+
+- **Lecture Notebook(s)**
+  - **Matrix Operations**  
+      + <a href="lectures/lecture_14/Lecture_14-Matrix-Operations.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
+      + [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1f3SUYzBD5mrlZVddx9ZpL8pD02B8TJm-)
+      + [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_14/Lecture_14-Matrix-Operations.html)
+      
+  - **Matrix Inversions**  
+      + <a href="lectures/lecture_14/Lecture_14-Inverting-Matrices.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
+      + [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1fLy35ECVKwRZ8NN1SnUi9TZGf3cMeRsI)
+      + [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_14/Lecture_14-Inverting-Matrices.html)
+
+
 <!-- ### Linear Regression  -->
 <!-- ### Eigen Decompositions -->
 <!-- ### Decompositions in Practice  -->
