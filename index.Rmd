@@ -288,6 +288,7 @@ tribble(
 <!-- ### Bayes Rule & Naive Bayes Algorithm -->
 <!-- ### Simulation and MCMC Sampling -->
 
+
 <br>
 ---
 
