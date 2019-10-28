@@ -127,7 +127,7 @@ output:
 ### Class 15: Linear Regression 
 
 - _Required Readings_
-  - [The Linear Algebra View of Least-Squares Regression](        * https://medium.com/@andrew.chamberlain/the-linear-algebra-view-of-least-squares-regression-f67044b7f39b) - Andrew Chamberlain
+  - [The Linear Algebra View of Least-Squares Regression](https://medium.com/@andrew.chamberlain/the-linear-algebra-view-of-least-squares-regression-f67044b7f39b) - Andrew Chamberlain
 
 ### Class 16: Eigen Decompositions
 
@@ -158,7 +158,7 @@ output:
   - **Moore and Siegel**
       + Ch.15.3-16.1
 
-### Class 21: Gradient Decent
+### Class 21: Gradient Descent
 
 - _Required Readings_
   - TBA

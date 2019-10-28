@@ -262,6 +262,7 @@ tribble(
 - **Lab Materials**
   - <a href="labs/lab_04/lab04_materials.zip" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
 
+
 ### Matrix Operations and Inversions
 
 - **Lecture Notebook(s)**
