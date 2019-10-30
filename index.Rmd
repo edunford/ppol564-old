@@ -280,16 +280,23 @@ tribble(
 ### Linear Regression
 
 - **Lecture Notebook(s)**
-  - <a href="lectures/Lecture_15/Lecture_15-linear-regression.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
+  - <a href="lectures/lecture_15/Lecture_15-linear-regression.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
   - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1Ie2ZRRxpSGt5VYXXckfYkb3EEHh4znbD)
-  - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/Lecture_15/Lecture_15-linear-regression.html)
+  - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_15/Lecture_15-linear-regression.html)
 
 - **Lab Materials**
   - <a href="labs/lab_05/lab_materials.zip" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
 
-[](lectures/Lecture_15/Lecture_15-linear-regression.ipynb)
 
-<!-- ### Eigen Decompositions -->
+
+### Eigen Decompositions
+
+- **Lecture Notebook(s)**
+  - <a href="lectures/lecture_16/Lecture_16-eigen-decompositions.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
+  - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1KjQe1CcFoq1KF52iNPj2YiAUM1mx83Db)
+  - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_16/Lecture_16-eigen-decompositions.html)
+
+
 <!-- ### Decompositions in Practice  -->
 <!-- ### Differentiation -->
 <!-- ### Optimizing Univariate Functions -->
