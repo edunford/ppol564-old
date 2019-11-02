@@ -129,16 +129,11 @@ output:
 - _Required Readings_
   - [The Linear Algebra View of Least-Squares Regression](https://medium.com/@andrew.chamberlain/the-linear-algebra-view-of-least-squares-regression-f67044b7f39b) - Andrew Chamberlain
 
-### Class 16: Eigen Decompositions
+### Class 16 + 17: Eigen Decompositions
 
 - _Required Readings_
   - **Moore and Siegel**
       + Ch. 14.1
-
-### Class 17: Decompositions in Practice 
-
-- _Required Readings_
-  - TBA
 
 ### Class 18: Differentiation
 
