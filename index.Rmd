@@ -315,7 +315,21 @@ tribble(
       + [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1ISMpAU26-oOm2Kdd09M_IuG7UVQotz2I)
       + [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_17/Lecture_17_3-Data-Reduction.html)   
   
-<!-- ### Differentiation -->
+### Differentiation
+
+
+- **Lecture Notebook(s)**
+  - **Derivatives**  
+      + <a href="lectures/lecture_18/Lecture_18_01-Derivatives.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
+      + [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=15GkwgOdFfKCOPC_zaXuyi92zq6dhF-ww)
+      + [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_18/Lecture_18_01-Derivatives.html)
+      
+  - **Rules of Differentiation**  
+      + <a href="lectures/lecture_18/Lecture_18_02-Rules-of-Differentiation.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
+      + [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1kANIA11heMVRb-0lKEkg98i1COAqLupz)
+      + [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_18/Lecture_18_02-Rules-of-Differentiation.html)   
+
+
 <!-- ### Optimizing Univariate Functions -->
 <!-- ### Optimizing Multivariate Functions -->
 <!-- ### Gradient Decent -->
