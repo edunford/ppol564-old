@@ -330,7 +330,14 @@ tribble(
       + [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_18/Lecture_18_02-Rules-of-Differentiation.html)   
 
 
-<!-- ### Optimizing Univariate Functions -->
+### Optimizing Univariate Functions
+
+- **Lecture Notebook(s)**
+  - <a href="lectures/lecture_19/Lecture_19-optimizing-univariate-functions.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
+  - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1IEOsdkoIeFGO9hyTw2pC36nAjfSWEiO0)
+  - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_19/Lecture_19-optimizing-univariate-functions.html)
+
+
 <!-- ### Optimizing Multivariate Functions -->
 <!-- ### Gradient Decent -->
 <!-- ### Constrained Optimization and Regularization -->
