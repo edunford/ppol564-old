@@ -17,7 +17,7 @@ class multivar:
         self.y = symbols('y')
     
 
-    def plot_3d(func,w=800,h=500,bounds = [-5,5],seperate_window=False,n=20):
+    def plot_3d(self,func,w=800,h=500,bounds = [-5,5],seperate_window=False,n=20):
         '''Generate a 3D surface plot for a sympy defined function
         '''
 
@@ -62,13 +62,12 @@ class multivar:
         else:
             iplot(fig,show_link=False)
 
-    def plot_contour(func,w=700,h=500,bounds = [-5,5],seperate_window=False,n=20):
+    def plot_contour(self,func,w=700,h=500,bounds = [-5,5],seperate_window=False,n=20):
         '''
         '''
 
         # Convert function wrapper
-        x,y = symbols('x y')
-        f = lambdify([x,y],func,'numpy')
+        f = lambdify([self.x,self.y],func,'numpy')
 
         # Define numerical space 
         x_range = np.linspace(bounds[0], bounds[1] ,n)
@@ -87,14 +86,13 @@ class multivar:
         else:
             iplot(fig,show_link=False)
             
-    def plot_gradient(func,bounds=[-5,5],seperate_window=False):
+    def plot_gradient(self,func,bounds=[-5,5],seperate_window=False):
         '''Quiver plot to the visualize the gradient. 
         '''
-        x,y = symbols('x y')
-        f_x = func.diff(x)
-        f_y = func.diff(y)
-        fx = lambdify([x,y],f_x,'numpy')
-        fy = lambdify([x,y],f_y,'numpy')
+        f_x = func.diff(self.x)
+        f_y = func.diff(self.y)
+        fx = lambdify([self.x,self.y],f_x,'numpy')
+        fy = lambdify([self.x,self.y],f_y,'numpy')
 
         # Define numerical space 
         x_range = np.arange(bounds[0], bounds[1] ,1)
