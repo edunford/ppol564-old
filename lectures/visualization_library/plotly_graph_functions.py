@@ -13,7 +13,8 @@ init_notebook_mode(connected=True)
 class multivar:
 
     def __init__(self):
-        pass
+        self.x = symbols('x')
+        self.y = symbols('y')
     
 
     def plot_3d(func,w=800,h=500,bounds = [-5,5],seperate_window=False,n=20):
@@ -21,8 +22,7 @@ class multivar:
         '''
 
         # Convert function wrapper
-        x,y = symbols('x y')
-        f = lambdify([x,y],func,'numpy')
+        f = lambdify([self.x,self.y],func,'numpy')
 
         # Define numerical space 
         x_range = np.linspace(bounds[0], bounds[1] ,n)
