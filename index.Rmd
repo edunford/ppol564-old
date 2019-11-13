@@ -338,7 +338,15 @@ tribble(
   - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_19/Lecture_19-optimizing-univariate-functions.html)
 
 
-<!-- ### Optimizing Multivariate Functions -->
+### Optimizing Multivariate Functions
+
+- **Lecture Notebook(s)**
+  - <a href="lectures/lecture_20/Lecture_20-unconstrained-optimization-of-multivariable-functions.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
+  - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1pYyrPGIR6lEegGfAy_mpnMErRq4lNyiV)
+  - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_20/Lecture_20-unconstrained-optimization-of-multivariable-functions.html)
+
+
+
 <!-- ### Gradient Decent -->
 <!-- ### Constrained Optimization and Regularization -->
 <!-- ### Probability  -->
