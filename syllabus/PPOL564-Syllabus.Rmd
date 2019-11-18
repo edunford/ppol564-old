@@ -12,7 +12,7 @@ output:
     toc_float: true
 ---
 
-<!-- ### [Home](../index.html) -->
+### [Home](../index.html)
 
 
 \begin{center}
