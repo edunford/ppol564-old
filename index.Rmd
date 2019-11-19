@@ -354,7 +354,23 @@ tribble(
   - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1LKobC7JWtLZtvBdYEzZDEu1anIRLjy-W)
   - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_21/Lecture_21-Gradient-Descent.html)
 
-<!-- ### Constrained Optimization and Regularization -->
+### Constrained Optimization
+
+- **Lecture Notebook(s)**
+  - **Gradient Descent (Part 2)**  
+      + <a href="lectures/lecture_22/Lecture_22-Gradient-Descent_Part-02.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
+      + [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1kBKWTt1Wu8YIAy93G4AMspTV7OAS9U71)
+      + [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_22/Lecture_22-Gradient-Descent_Part-02.html)
+      
+  - **Constrained Optimization**  
+      + <a href="lectures/lecture_22/Lecture_22-Constrained-Optimization.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
+      + [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1O7_j4D3dH6F8L9zelnBzAqyk9IHhiBlp)
+      + [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_22/Lecture_22-Constrained-Optimization.html)
+      
+  - **[Supplement] Unpacking the Lagrange Multiplier**  
+      + [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_22/Lecture_22-Constrained-Optimization.html)
+      
+      
 <!-- ### Probability  -->
 <!-- ### Bayes Rule & Naive Bayes Algorithm -->
 <!-- ### Simulation and MCMC Sampling -->
