@@ -347,7 +347,7 @@ tribble(
 
 
 
-### Gradient Decent
+### Gradient Descent
 
 - **Lecture Notebook(s)**
   - <a href="lectures/lecture_21/Lecture_21-Gradient-Descent.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
