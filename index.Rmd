@@ -368,8 +368,9 @@ tribble(
       + [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_22/Lecture_22-Constrained-Optimization.html)
       
   - **[Supplement] Unpacking the Lagrange Multiplier**  
-      + [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_22/Lecture_22-Constrained-Optimization.html)
+      + [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_22/Lecture_22-Supplement-unpacking-the-lagrange-multiplier.html)
       
+
       
 <!-- ### Probability  -->
 <!-- ### Bayes Rule & Naive Bayes Algorithm -->
