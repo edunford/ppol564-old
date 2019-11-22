@@ -169,17 +169,24 @@ output:
 
 - _Required Readings_
   - **Moore and Siegel**
-      + Ch. 9 - 11
+      + Ch. 9.1 - 9.2.2
+      + Ch. 10.1 - 10.6.2, 10.7
+      + 11.1 - 11.2.2, 11.3.1 - 11.3.4
 
-### Class 24: Bayes Rule 
+### Class 24: Bayes Rule + Naive Bayes Algorithm
 
 - _Required Readings_
-  - TBA
+  - **Moore and Siegel**
+      - Ch. 9.2.3
+  - [Naive Bayes Explained](https://towardsdatascience.com/naive-bayes-explained-9d2b96f4a9c0) - Zhang, Zixuan
+  - [Naive Bayes from Scratch](https://machinelearningmastery.com/naive-bayes-classifier-scratch-python/) - Brownlee, Jason
 
 ### Class 25: Simulation and Sampling    
 
 - _Required Readings_
-  - TBA
+  - McElreath, Richard. Statistical rethinking: A Bayesian course with examples in R and Stan. Chapman and Hall/CRC, 2018.
+      - Ch. 3 (Canvas)
+      - Ch. 8.1 - 8.3 (Canvas)
  
 
     
