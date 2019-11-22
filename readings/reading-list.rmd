@@ -171,12 +171,12 @@ output:
   - **Moore and Siegel**
       + Ch. 9 - 11
 
-### Class 24: Bayes Rule & Naive Bayes Algorithm
+### Class 24: Bayes Rule 
 
 - _Required Readings_
   - TBA
 
-### Class 25: Simulation and MCMC Sampling    
+### Class 25: Simulation and Sampling    
 
 - _Required Readings_
   - TBA
