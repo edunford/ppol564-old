@@ -159,7 +159,7 @@ output:
   - [Introduction to the Gradient Descent Algorithm](https://medium.com/@montjoile/an-introduction-to-gradient-descent-algorithm-34cf3cee752b) - Sara Garcia
   - [Gradient Descent - Simply Explained](https://towardsdatascience.com/gradient-descent-simply-explained-1d2baa65c757) - Koo Shung
 
-### Class 22: Constrained Optimization and Regularization
+### Class 22: Constrained Optimization 
 
 - _Required Readings_
   - **Moore and Siegel**
@@ -171,12 +171,12 @@ output:
   - **Moore and Siegel**
       + Ch. 9 - 11
 
-### Class 24: Bayes Rule & Naive Bayes Algorithm
+### Class 24: Bayes Rule 
 
 - _Required Readings_
   - TBA
 
-### Class 25: Simulation and MCMC Sampling    
+### Class 25: Simulation and Sampling    
 
 - _Required Readings_
   - TBA
