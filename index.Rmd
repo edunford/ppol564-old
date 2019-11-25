@@ -372,7 +372,13 @@ tribble(
       
 
       
-<!-- ### Probability  -->
+### Probability
+
+- **Lecture Notebook(s)**
+  - <a href="lectures/lecture_23/Lecture_23-Probability.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
+  - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1_FthX8GmbkqkHbAQfogRCLjsLrayfo_G)
+  - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_23/Lecture_23-Probability.html)
+
 <!-- ### Bayes Rule & Naive Bayes Algorithm -->
 <!-- ### Simulation and MCMC Sampling -->
 

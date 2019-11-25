@@ -181,6 +181,7 @@ output:
   - [Naive Bayes Explained](https://towardsdatascience.com/naive-bayes-explained-9d2b96f4a9c0) - Zhang, Zixuan
   - [Naive Bayes from Scratch](https://machinelearningmastery.com/naive-bayes-classifier-scratch-python/) - Brownlee, Jason
 
+
 ### Class 25: Simulation and Sampling    
 
 - _Required Readings_
