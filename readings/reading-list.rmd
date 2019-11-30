@@ -178,8 +178,8 @@ output:
 - _Required Readings_
   - **Moore and Siegel**
       - Ch. 9.2.3
-  - [Naive Bayes Explained](https://towardsdatascience.com/naive-bayes-explained-9d2b96f4a9c0) - Zhang, Zixuan
-  - [Naive Bayes from Scratch](https://machinelearningmastery.com/naive-bayes-classifier-scratch-python/) - Brownlee, Jason
+  - [A Gentle Introduction to Bayes Theorem for Machine Learning](https://machinelearningmastery.com/bayes-theorem-for-machine-learning/) - Brownlee, Jason
+  - [Naive Bayes from Scratch](https://machinelearningmastery.com/classification-as-conditional-probability-and-the-naive-bayes-algorithm/) - Brownlee, Jason
 
 
 ### Class 25: Simulation and Sampling    
