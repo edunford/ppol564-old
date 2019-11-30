@@ -182,6 +182,7 @@ output:
   - [Naive Bayes from Scratch](https://machinelearningmastery.com/classification-as-conditional-probability-and-the-naive-bayes-algorithm/) - Brownlee, Jason
 
 
+
 ### Class 25: Simulation and Sampling    
 
 - _Required Readings_
