@@ -387,9 +387,20 @@ tribble(
   - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_24/lecture_24-bayes.html)
 
 
+### Simulation and Sampling
 
-<!-- ### Simulation and MCMC Sampling -->
+- **Lecture Notebook(s)**
+  - **Sampling**  
+      + <a href="lectures/lecture_25/lecture_25-sampling.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
+      + [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1u8buSCNX41ggL06SRMFQOJ9EdhDBWlds)
+      + [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_25/lecture_25-sampling.html)
+      
+  - **Simulation**  
+      + <a href="lectures/lecture_25/lecture_25-simulation.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
+      + [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1jwTXn9Wlkb6hgTp1VXk_fiv19--zowN6)
+      + [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_25/lecture_25-simulation.html)
 
+[](lectures/lecture_25/lecture_25-simulation.ipynb)
 
 <br>
 ---
