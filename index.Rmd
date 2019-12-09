@@ -76,6 +76,8 @@ read_csv('syllabus/fall-2019-timeline.csv') %>%
 
 #### List of all [required reading](readings/reading-list.html).
 
+#### [Study Suggestions for the Final Exam](lectures/study_guide.pdf)
+
 <br>
 <br>
 <br>
@@ -410,7 +412,6 @@ tribble(
       + <a href="lectures/lecture_25/lecture_25-simulation.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
       + [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1jwTXn9Wlkb6hgTp1VXk_fiv19--zowN6)
       + [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_25/lecture_25-simulation.html)
-
 
 <br>
 ---
