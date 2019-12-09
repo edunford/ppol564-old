@@ -159,12 +159,14 @@ tribble(
 - **Lecture Notebook(s)**
   - <a href="lectures/lecture_02/lecture_02_version-control.ipynb" download><img src="https://img.icons8.com/color/52/000000/download-2.png"></a>
   - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://colab.research.google.com/drive/1rHww9HLbhnnBQlOz4V0kh5Uf7L3UWtSy)
+  - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_02/lecture_02_version-control.html)
 
 ### Jupyter Notebooks
 
 - **Lecture Notebook(s)**
   - <a href="lectures/lecture_03/lecture_03-using-jupyter-notebooks.ipynb" download><img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
   - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1yFxut51JX4BUdn9zrpqJneNPiFxQHE8R)
+  - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_03/lecture_03-using-jupyter-notebooks.html)
   
 ### Data Types in Python
 
@@ -409,7 +411,6 @@ tribble(
       + [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1jwTXn9Wlkb6hgTp1VXk_fiv19--zowN6)
       + [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_25/lecture_25-simulation.html)
 
-[](lectures/lecture_25/lecture_25-simulation.ipynb)
 
 <br>
 ---
