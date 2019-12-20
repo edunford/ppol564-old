@@ -74,9 +74,9 @@ read_csv('syllabus/fall-2019-timeline.csv') %>%
 <br>
 <br>
 
-#### List of all [required reading](readings/reading-list.html).
+<!-- #### List of all [required reading](readings/reading-list.html). -->
 
-#### [Study Suggestions for the Final Exam](lectures/study_guide.pdf)
+<!-- #### [Study Suggestions for the Final Exam](lectures/study_guide.pdf) -->
 
 <br>
 <br>
@@ -151,267 +151,267 @@ tribble(
 <br>
 <br>
 
-### Reproducibility
+<!-- ### Reproducibility -->
 
-- [**Lecture Slides**](lectures/lecture_01/lecture-01.html)
+<!-- - [**Lecture Slides**](lectures/lecture_01/lecture-01.html) -->
 
-### Version Control
+<!-- ### Version Control -->
 
-- [**Lecture Slides**](lectures/lecture_02/lecture-02-version-control.html)
-- **Lecture Notebook(s)**
-  - <a href="lectures/lecture_02/lecture_02_version-control.ipynb" download><img src="https://img.icons8.com/color/52/000000/download-2.png"></a>
-  - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://colab.research.google.com/drive/1rHww9HLbhnnBQlOz4V0kh5Uf7L3UWtSy)
-  - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_02/lecture_02_version-control.html)
+<!-- - [**Lecture Slides**](lectures/lecture_02/lecture-02-version-control.html) -->
+<!-- - **Lecture Notebook(s)** -->
+<!--   - <a href="lectures/lecture_02/lecture_02_version-control.ipynb" download><img src="https://img.icons8.com/color/52/000000/download-2.png"></a> -->
+<!--   - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://colab.research.google.com/drive/1rHww9HLbhnnBQlOz4V0kh5Uf7L3UWtSy) -->
+<!--   - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_02/lecture_02_version-control.html) -->
 
-### Jupyter Notebooks
+<!-- ### Jupyter Notebooks -->
 
-- **Lecture Notebook(s)**
-  - <a href="lectures/lecture_03/lecture_03-using-jupyter-notebooks.ipynb" download><img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
-  - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1yFxut51JX4BUdn9zrpqJneNPiFxQHE8R)
-  - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_03/lecture_03-using-jupyter-notebooks.html)
-  
-### Data Types in Python
+<!-- - **Lecture Notebook(s)** -->
+<!--   - <a href="lectures/lecture_03/lecture_03-using-jupyter-notebooks.ipynb" download><img src="https://img.icons8.com/color/52/000000/download-2.png"> </a> -->
+<!--   - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1yFxut51JX4BUdn9zrpqJneNPiFxQHE8R) -->
+<!--   - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_03/lecture_03-using-jupyter-notebooks.html) -->
 
-- [**Lecture Slides**](lectures/lecture_04/lecture_04-python-data-types.html)
-- **Lecture Notebook(s)**
-  - **_Data Types_**
-    - <a href="lectures/lecture_04/lecture_04_notebook01_python-data-types.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"></a>
-    - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1Va3MSoGEJFlCKoQdTcGGHqsnD_akh_-a)
-    - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_04/lecture_04_Notebook01_python-data-types.html)
-  - **_Manipulating Data Structures_** 
-    - <a href="lectures/lecture_04/Lecture_04_notebook02_manipulating-data-structures.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
-    - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1PF2Nm3ZnQWEFHa19htc5Xv695aXixl-4)
-    - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_04/Lecture_04_notebook02_manipulating-data-structures.html)
-  - [Supplement] **_Strings and Dates_**
-    - <a href="lectures/lecture_04/lecture_04_supplement_strings-and-dates.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
-    - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1q_mqmxGXKP4JMH4-rcs6A5RJw-kzE-lo)
-    - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_04/lecture_04_supplement_strings-and-dates.html)
-    
-    
-- **Lab Material**
-  - <a href="labs/lab_02/lab_02_materials.zip" download> <img src="https://img.icons8.com/color/52/000000/download-2.png">  </a>
+<!-- ### Data Types in Python -->
 
-### Control Sequences, Iteration, and Functions
-
-- **Lecture Notebook(s)**
-  - **_Control Sequences and Iteration_**
-    - <a href="lectures/lecture_05/Lecture_05_Notebook01_control-sequences-and-iteration.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"></a>
-    - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1hsAHijV-G8t8FSGEzfR8xa508rj4vkZU)
-    - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_05/Lecture_05_Notebook01_control-sequences-and-iteration.html)
-  - **_Functions_** 
-    - <a href="lectures/lecture_05/Lecture_05_Notebook02_functions.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"></a>
-    - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1u3m_GSMlR8qc9ILu4uW0tEDn0hb_mtIN)
-    - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_05/Lecture_05_Notebook02_functions.html)
-
-### Comprehensions and Generators
-
-- **Lecture Notebook(s)**
-  - **_Comprehensions, Generators, and Itertools_**
-    - <a href="lectures/lecture_06/lecture_06_Notebook01_comprehensions-generators-and-itertools.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
-    - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1WZOdN_E15aC6zOCScGFfWeA6O_BBVSwf)
-    - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_06/lecture_06_Notebook01_comprehensions-generators-and-itertools.html)
-  - **_File Management_**
-    - <a href="lectures/lecture_06/Lecture_06_Notebook02_file-management_MATERIALS.zip" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a> 
-    - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1dfx_JTBCPXZiHLxzpFphcnI8hhPyKgDA)
-    - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_06/Lecture_06_Notebook02_file-management.html)
-    
-### Numpy
-
-- **Lecture Notebook(s)**
-  - <a href="lectures/lecture_07/Lecture_7_Numpy.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
-  - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1ELq-vKTU7_-hA4nqxvfGEJFDbaeK0hC5)
-  - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_07/Lecture_7_Numpy.html)
-
-### Data Wrangling with Pandas (part 1)
-
-- **Lecture Notebook(s)**
-  - <a href="lectures/lecture_08/Lecture_08-data-wrangling-with-pandas_part01.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
-  - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=18PSphiIFwv63kEMHDMpV9un1t78lxXIw)
-  - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_08/Lecture_08-data-wrangling-with-pandas_part01.html)
+<!-- - [**Lecture Slides**](lectures/lecture_04/lecture_04-python-data-types.html) -->
+<!-- - **Lecture Notebook(s)** -->
+<!--   - **_Data Types_** -->
+<!--     - <a href="lectures/lecture_04/lecture_04_notebook01_python-data-types.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"></a> -->
+<!--     - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1Va3MSoGEJFlCKoQdTcGGHqsnD_akh_-a) -->
+<!--     - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_04/lecture_04_Notebook01_python-data-types.html) -->
+<!--   - **_Manipulating Data Structures_**  -->
+<!--     - <a href="lectures/lecture_04/Lecture_04_notebook02_manipulating-data-structures.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a> -->
+<!--     - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1PF2Nm3ZnQWEFHa19htc5Xv695aXixl-4) -->
+<!--     - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_04/Lecture_04_notebook02_manipulating-data-structures.html) -->
+<!--   - [Supplement] **_Strings and Dates_** -->
+<!--     - <a href="lectures/lecture_04/lecture_04_supplement_strings-and-dates.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a> -->
+<!--     - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1q_mqmxGXKP4JMH4-rcs6A5RJw-kzE-lo) -->
+<!--     - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_04/lecture_04_supplement_strings-and-dates.html) -->
 
 
-### Data Wrangling with Pandas (part 2)
+<!-- - **Lab Material** -->
+<!--   - <a href="labs/lab_02/lab_02_materials.zip" download> <img src="https://img.icons8.com/color/52/000000/download-2.png">  </a> -->
 
-- **Lecture Notebook(s)**
-  - <a href="lectures/lecture_09/lecture_09_data-wrangling-with-pandas_part02.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
-  - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1utyLA_r-tK7Q8J5Kej5AhN7anFt75vDo)
-  - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_09/lecture_09_data-wrangling-with-pandas_part02.html)
-  
-  
-### Exploratory Data Analysis
+<!-- ### Control Sequences, Iteration, and Functions -->
 
-- **Lecture Notebook(s)**
-  - <a href="lectures/lecture_10/lecture_10-data-exploration.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
-  - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1fD3918E75X3RcSjKAoMmRPcZizaI2lo4)
-  - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_10/lecture_10-data-exploration.html)
-  
-- **Lab Materials**
-  - <a href="labs/lab_03/lab03_materials.zip" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
+<!-- - **Lecture Notebook(s)** -->
+<!--   - **_Control Sequences and Iteration_** -->
+<!--     - <a href="lectures/lecture_05/Lecture_05_Notebook01_control-sequences-and-iteration.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"></a> -->
+<!--     - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1hsAHijV-G8t8FSGEzfR8xa508rj4vkZU) -->
+<!--     - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_05/Lecture_05_Notebook01_control-sequences-and-iteration.html) -->
+<!--   - **_Functions_**  -->
+<!--     - <a href="lectures/lecture_05/Lecture_05_Notebook02_functions.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"></a> -->
+<!--     - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1u3m_GSMlR8qc9ILu4uW0tEDn0hb_mtIN) -->
+<!--     - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_05/Lecture_05_Notebook02_functions.html) -->
 
-### Vectors
+<!-- ### Comprehensions and Generators -->
 
-- **Lecture Notebook(s)**
-  - <a href="lectures/lecture_11/Lecture_11-vectors.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
-  - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1rUN2w3pcziwptC_RPrtEzOlPe49sidrg)
-  - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_11/Lecture_11-vectors.html)
+<!-- - **Lecture Notebook(s)** -->
+<!--   - **_Comprehensions, Generators, and Itertools_** -->
+<!--     - <a href="lectures/lecture_06/lecture_06_Notebook01_comprehensions-generators-and-itertools.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a> -->
+<!--     - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1WZOdN_E15aC6zOCScGFfWeA6O_BBVSwf) -->
+<!--     - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_06/lecture_06_Notebook01_comprehensions-generators-and-itertools.html) -->
+<!--   - **_File Management_** -->
+<!--     - <a href="lectures/lecture_06/Lecture_06_Notebook02_file-management_MATERIALS.zip" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>  -->
+<!--     - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1dfx_JTBCPXZiHLxzpFphcnI8hhPyKgDA) -->
+<!--     - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_06/Lecture_06_Notebook02_file-management.html) -->
 
+<!-- ### Numpy -->
 
-### Trigonometry of Vectors
+<!-- - **Lecture Notebook(s)** -->
+<!--   - <a href="lectures/lecture_07/Lecture_7_Numpy.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a> -->
+<!--   - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1ELq-vKTU7_-hA4nqxvfGEJFDbaeK0hC5) -->
+<!--   - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_07/Lecture_7_Numpy.html) -->
 
-- **Lecture Notebook(s)**
-  - <a href="lectures/lecture_12/Lecture_12-trigonometry-of-vectors.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
-  - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1nzjYryRH1njVgf9JndRdArI9CHJbJqRp)
-  - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_12/Lecture_12-trigonometry-of-vectors.html)
+<!-- ### Data Wrangling with Pandas (part 1) -->
 
-
-### Matrix Transformations
-
-
-- **Lecture Notebook(s)**
-  - <a href="lectures/lecture_13/Lecture_13-Matrix-Transformation.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
-  - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1osqDs-i85AjumpE9VEov2CKHQx2WyAuz)
-  - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_13/Lecture_13-Matrix-Transformation.html)
-
-- **Lab Materials**
-  - <a href="labs/lab_04/lab04_materials.zip" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
+<!-- - **Lecture Notebook(s)** -->
+<!--   - <a href="lectures/lecture_08/Lecture_08-data-wrangling-with-pandas_part01.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a> -->
+<!--   - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=18PSphiIFwv63kEMHDMpV9un1t78lxXIw) -->
+<!--   - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_08/Lecture_08-data-wrangling-with-pandas_part01.html) -->
 
 
-### Matrix Operations and Inversions
+<!-- ### Data Wrangling with Pandas (part 2) -->
 
-- **Lecture Notebook(s)**
-  - **Matrix Operations**  
-      + <a href="lectures/lecture_14/Lecture_14-Matrix-Operations.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
-      + [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1f3SUYzBD5mrlZVddx9ZpL8pD02B8TJm-)
-      + [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_14/Lecture_14-Matrix-Operations.html)
-      
-  - **Matrix Inversions**  
-      + <a href="lectures/lecture_14/Lecture_14-Inverting-Matrices.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
-      + [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1fLy35ECVKwRZ8NN1SnUi9TZGf3cMeRsI)
-      + [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_14/Lecture_14-Inverting-Matrices.html)
+<!-- - **Lecture Notebook(s)** -->
+<!--   - <a href="lectures/lecture_09/lecture_09_data-wrangling-with-pandas_part02.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a> -->
+<!--   - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1utyLA_r-tK7Q8J5Kej5AhN7anFt75vDo) -->
+<!--   - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_09/lecture_09_data-wrangling-with-pandas_part02.html) -->
 
 
-### Linear Regression
+<!-- ### Exploratory Data Analysis -->
 
-- **Lecture Notebook(s)**
-  - <a href="lectures/Lecture_15/Lecture_15-linear-regression.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
-  - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1Ie2ZRRxpSGt5VYXXckfYkb3EEHh4znbD)
-  - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/Lecture_15/Lecture_15-linear-regression.html)
+<!-- - **Lecture Notebook(s)** -->
+<!--   - <a href="lectures/lecture_10/lecture_10-data-exploration.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a> -->
+<!--   - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1fD3918E75X3RcSjKAoMmRPcZizaI2lo4) -->
+<!--   - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_10/lecture_10-data-exploration.html) -->
 
-- **Lab Materials**
-  - <a href="labs/lab_05/lab_materials.zip" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
+<!-- - **Lab Materials** -->
+<!--   - <a href="labs/lab_03/lab03_materials.zip" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a> -->
 
+<!-- ### Vectors -->
 
-
-### Eigen Decompositions
-
-- **Lecture Notebook(s)**
-  - <a href="lectures/lecture_16/Lecture_16-eigen-decompositions.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
-  - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1KjQe1CcFoq1KF52iNPj2YiAUM1mx83Db)
-  - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_16/Lecture_16-eigen-decompositions.html)
+<!-- - **Lecture Notebook(s)** -->
+<!--   - <a href="lectures/lecture_11/Lecture_11-vectors.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a> -->
+<!--   - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1rUN2w3pcziwptC_RPrtEzOlPe49sidrg) -->
+<!--   - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_11/Lecture_11-vectors.html) -->
 
 
-### Decompositions in Practice
+<!-- ### Trigonometry of Vectors -->
 
-- **Lecture Notebook(s)**
-  - **Covariance and Correlation Matrices**  
-      + <a href="lectures/lecture_17/Lecture_17_1-Covariance-and-Correlation-Matrices.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
-      + [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1rKLBPT9uhdPewgPCUlnZgZlCrs_1q1LK)
-      + [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_17/Lecture_17_1-Covariance-and-Correlation-Matrices.html)
-      
-  - **Latent Variables**  
-      + <a href="lectures/lecture_17/Lecture_17_2-Latent-Variable.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
-      + [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1TbUPNqtM-Njkcn2OQ8A8cnOAdqTSaOj7)
-      + [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_17/Lecture_17_2-Latent-Variable.html)    
-      
-  - **Data Reduction**  
-      + <a href="lectures/lecture_17/Lecture_17_3-Data-Reduction.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
-      + [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1ISMpAU26-oOm2Kdd09M_IuG7UVQotz2I)
-      + [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_17/Lecture_17_3-Data-Reduction.html)   
-  
-### Differentiation
+<!-- - **Lecture Notebook(s)** -->
+<!--   - <a href="lectures/lecture_12/Lecture_12-trigonometry-of-vectors.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a> -->
+<!--   - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1nzjYryRH1njVgf9JndRdArI9CHJbJqRp) -->
+<!--   - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_12/Lecture_12-trigonometry-of-vectors.html) -->
 
 
-- **Lecture Notebook(s)**
-  - **Derivatives**  
-      + <a href="lectures/lecture_18/Lecture_18_01-Derivatives.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
-      + [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=15GkwgOdFfKCOPC_zaXuyi92zq6dhF-ww)
-      + [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_18/Lecture_18_01-Derivatives.html)
-      
-  - **Rules of Differentiation**  
-      + <a href="lectures/lecture_18/Lecture_18_02-Rules-of-Differentiation.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
-      + [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1kANIA11heMVRb-0lKEkg98i1COAqLupz)
-      + [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_18/Lecture_18_02-Rules-of-Differentiation.html)   
+<!-- ### Matrix Transformations -->
 
 
-### Optimizing Univariate Functions
+<!-- - **Lecture Notebook(s)** -->
+<!--   - <a href="lectures/lecture_13/Lecture_13-Matrix-Transformation.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a> -->
+<!--   - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1osqDs-i85AjumpE9VEov2CKHQx2WyAuz) -->
+<!--   - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_13/Lecture_13-Matrix-Transformation.html) -->
 
-- **Lecture Notebook(s)**
-  - <a href="lectures/lecture_19/Lecture_19-optimizing-univariate-functions.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
-  - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1IEOsdkoIeFGO9hyTw2pC36nAjfSWEiO0)
-  - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_19/Lecture_19-optimizing-univariate-functions.html)
+<!-- - **Lab Materials** -->
+<!--   - <a href="labs/lab_04/lab04_materials.zip" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a> -->
 
 
-### Optimizing Multivariate Functions
+<!-- ### Matrix Operations and Inversions -->
 
-- **Lecture Notebook(s)**
-  - <a href="lectures/lecture_20/Lecture_20-unconstrained-optimization-of-multivariable-functions.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
-  - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1pYyrPGIR6lEegGfAy_mpnMErRq4lNyiV)
-  - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_20/Lecture_20-unconstrained-optimization-of-multivariable-functions.html)
+<!-- - **Lecture Notebook(s)** -->
+<!--   - **Matrix Operations**   -->
+<!--       + <a href="lectures/lecture_14/Lecture_14-Matrix-Operations.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a> -->
+<!--       + [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1f3SUYzBD5mrlZVddx9ZpL8pD02B8TJm-) -->
+<!--       + [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_14/Lecture_14-Matrix-Operations.html) -->
+
+<!--   - **Matrix Inversions**   -->
+<!--       + <a href="lectures/lecture_14/Lecture_14-Inverting-Matrices.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a> -->
+<!--       + [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1fLy35ECVKwRZ8NN1SnUi9TZGf3cMeRsI) -->
+<!--       + [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_14/Lecture_14-Inverting-Matrices.html) -->
+
+
+<!-- ### Linear Regression -->
+
+<!-- - **Lecture Notebook(s)** -->
+<!--   - <a href="lectures/Lecture_15/Lecture_15-linear-regression.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a> -->
+<!--   - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1Ie2ZRRxpSGt5VYXXckfYkb3EEHh4znbD) -->
+<!--   - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/Lecture_15/Lecture_15-linear-regression.html) -->
+
+<!-- - **Lab Materials** -->
+<!--   - <a href="labs/lab_05/lab_materials.zip" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a> -->
 
 
 
-### Gradient Descent
+<!-- ### Eigen Decompositions -->
 
-- **Lecture Notebook(s)**
-  - <a href="lectures/lecture_21/Lecture_21-Gradient-Descent.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
-  - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1LKobC7JWtLZtvBdYEzZDEu1anIRLjy-W)
-  - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_21/Lecture_21-Gradient-Descent.html)
-
-### Constrained Optimization
-
-- **Lecture Notebook(s)**
-  - **Gradient Descent (Part 2)**  
-      + <a href="lectures/lecture_22/Lecture_22-Gradient-Descent_Part-02.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
-      + [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1kBKWTt1Wu8YIAy93G4AMspTV7OAS9U71)
-      + [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_22/Lecture_22-Gradient-Descent_Part-02.html)
-      
-  - **Constrained Optimization**  
-      + <a href="lectures/lecture_22/Lecture_22-Constrained-Optimization.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
-      + [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1O7_j4D3dH6F8L9zelnBzAqyk9IHhiBlp)
-      + [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_22/Lecture_22-Constrained-Optimization.html)
-      
-  - **[Supplement] Unpacking the Lagrange Multiplier**  
-      + [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_22/Lecture_22-Supplement-unpacking-the-lagrange-multiplier.html)
-      
-
-      
-### Probability
-
-- **Lecture Notebook(s)**
-  - <a href="lectures/lecture_23/Lecture_23-Probability.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
-  - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1_FthX8GmbkqkHbAQfogRCLjsLrayfo_G)
-  - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_23/Lecture_23-Probability.html)
-
-### Bayes Rule & Naive Bayes Algorithm
-
-- **Lecture Notebook(s)**
-  - <a href="lectures/lecture_24/lecture_24-bayes.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
-  - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=14FnCZ3GLiVp3lonjAiVf44MZtW8-H4u7)
-  - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_24/lecture_24-bayes.html)
+<!-- - **Lecture Notebook(s)** -->
+<!--   - <a href="lectures/lecture_16/Lecture_16-eigen-decompositions.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a> -->
+<!--   - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1KjQe1CcFoq1KF52iNPj2YiAUM1mx83Db) -->
+<!--   - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_16/Lecture_16-eigen-decompositions.html) -->
 
 
-### Simulation and Sampling
+<!-- ### Decompositions in Practice -->
 
-- **Lecture Notebook(s)**
-  - **Sampling**  
-      + <a href="lectures/lecture_25/lecture_25-sampling.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
-      + [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1u8buSCNX41ggL06SRMFQOJ9EdhDBWlds)
-      + [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_25/lecture_25-sampling.html)
-      
-  - **Simulation**  
-      + <a href="lectures/lecture_25/lecture_25-simulation.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a>
-      + [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1jwTXn9Wlkb6hgTp1VXk_fiv19--zowN6)
-      + [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_25/lecture_25-simulation.html)
+<!-- - **Lecture Notebook(s)** -->
+<!--   - **Covariance and Correlation Matrices**   -->
+<!--       + <a href="lectures/lecture_17/Lecture_17_1-Covariance-and-Correlation-Matrices.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a> -->
+<!--       + [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1rKLBPT9uhdPewgPCUlnZgZlCrs_1q1LK) -->
+<!--       + [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_17/Lecture_17_1-Covariance-and-Correlation-Matrices.html) -->
+
+<!--   - **Latent Variables**   -->
+<!--       + <a href="lectures/lecture_17/Lecture_17_2-Latent-Variable.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a> -->
+<!--       + [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1TbUPNqtM-Njkcn2OQ8A8cnOAdqTSaOj7) -->
+<!--       + [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_17/Lecture_17_2-Latent-Variable.html)     -->
+
+<!--   - **Data Reduction**   -->
+<!--       + <a href="lectures/lecture_17/Lecture_17_3-Data-Reduction.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a> -->
+<!--       + [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1ISMpAU26-oOm2Kdd09M_IuG7UVQotz2I) -->
+<!--       + [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_17/Lecture_17_3-Data-Reduction.html)    -->
+
+<!-- ### Differentiation -->
+
+
+<!-- - **Lecture Notebook(s)** -->
+<!--   - **Derivatives**   -->
+<!--       + <a href="lectures/lecture_18/Lecture_18_01-Derivatives.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a> -->
+<!--       + [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=15GkwgOdFfKCOPC_zaXuyi92zq6dhF-ww) -->
+<!--       + [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_18/Lecture_18_01-Derivatives.html) -->
+
+<!--   - **Rules of Differentiation**   -->
+<!--       + <a href="lectures/lecture_18/Lecture_18_02-Rules-of-Differentiation.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a> -->
+<!--       + [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1kANIA11heMVRb-0lKEkg98i1COAqLupz) -->
+<!--       + [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_18/Lecture_18_02-Rules-of-Differentiation.html)    -->
+
+
+<!-- ### Optimizing Univariate Functions -->
+
+<!-- - **Lecture Notebook(s)** -->
+<!--   - <a href="lectures/lecture_19/Lecture_19-optimizing-univariate-functions.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a> -->
+<!--   - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1IEOsdkoIeFGO9hyTw2pC36nAjfSWEiO0) -->
+<!--   - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_19/Lecture_19-optimizing-univariate-functions.html) -->
+
+
+<!-- ### Optimizing Multivariate Functions -->
+
+<!-- - **Lecture Notebook(s)** -->
+<!--   - <a href="lectures/lecture_20/Lecture_20-unconstrained-optimization-of-multivariable-functions.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a> -->
+<!--   - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1pYyrPGIR6lEegGfAy_mpnMErRq4lNyiV) -->
+<!--   - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_20/Lecture_20-unconstrained-optimization-of-multivariable-functions.html) -->
+
+
+
+<!-- ### Gradient Descent -->
+
+<!-- - **Lecture Notebook(s)** -->
+<!--   - <a href="lectures/lecture_21/Lecture_21-Gradient-Descent.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a> -->
+<!--   - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1LKobC7JWtLZtvBdYEzZDEu1anIRLjy-W) -->
+<!--   - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_21/Lecture_21-Gradient-Descent.html) -->
+
+<!-- ### Constrained Optimization -->
+
+<!-- - **Lecture Notebook(s)** -->
+<!--   - **Gradient Descent (Part 2)**   -->
+<!--       + <a href="lectures/lecture_22/Lecture_22-Gradient-Descent_Part-02.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a> -->
+<!--       + [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1kBKWTt1Wu8YIAy93G4AMspTV7OAS9U71) -->
+<!--       + [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_22/Lecture_22-Gradient-Descent_Part-02.html) -->
+
+<!--   - **Constrained Optimization**   -->
+<!--       + <a href="lectures/lecture_22/Lecture_22-Constrained-Optimization.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a> -->
+<!--       + [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1O7_j4D3dH6F8L9zelnBzAqyk9IHhiBlp) -->
+<!--       + [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_22/Lecture_22-Constrained-Optimization.html) -->
+
+<!--   - **[Supplement] Unpacking the Lagrange Multiplier**   -->
+<!--       + [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_22/Lecture_22-Supplement-unpacking-the-lagrange-multiplier.html) -->
+
+
+
+<!-- ### Probability -->
+
+<!-- - **Lecture Notebook(s)** -->
+<!--   - <a href="lectures/lecture_23/Lecture_23-Probability.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a> -->
+<!--   - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1_FthX8GmbkqkHbAQfogRCLjsLrayfo_G) -->
+<!--   - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_23/Lecture_23-Probability.html) -->
+
+<!-- ### Bayes Rule & Naive Bayes Algorithm -->
+
+<!-- - **Lecture Notebook(s)** -->
+<!--   - <a href="lectures/lecture_24/lecture_24-bayes.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a> -->
+<!--   - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=14FnCZ3GLiVp3lonjAiVf44MZtW8-H4u7) -->
+<!--   - [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_24/lecture_24-bayes.html) -->
+
+
+<!-- ### Simulation and Sampling -->
+
+<!-- - **Lecture Notebook(s)** -->
+<!--   - **Sampling**   -->
+<!--       + <a href="lectures/lecture_25/lecture_25-sampling.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a> -->
+<!--       + [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1u8buSCNX41ggL06SRMFQOJ9EdhDBWlds) -->
+<!--       + [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_25/lecture_25-sampling.html) -->
+
+<!--   - **Simulation**   -->
+<!--       + <a href="lectures/lecture_25/lecture_25-simulation.ipynb" download> <img src="https://img.icons8.com/color/52/000000/download-2.png"> </a> -->
+<!--       + [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg"/img>](https://drive.google.com/open?id=1jwTXn9Wlkb6hgTp1VXk_fiv19--zowN6) -->
+<!--       + [<img src="https://img.icons8.com/metro/26/000000/view-file.png">](lectures/lecture_25/lecture_25-simulation.html) -->
 
 <br>
 ---
