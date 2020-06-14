@@ -94,7 +94,7 @@ The course aims to provide students with the following competencies:
 
 - [**A Mathematics Course for Political and Social Research**](https://www.amazon.com/Mathematics-Course-Political-Social-Research/dp/0691159173/ref=sr_1_1?ie=UTF8&qid=1533153844&sr=8-1&keywords=a+mathematics+course+for+political+and+social+research&dpID=51wVtU1VsLL&preST=_SY291_BO1,204,203,200_QL40_&dpSrc=srch). Moore, Will H., and David A. Siegel. Princeton University Press, 2013.
 
-- Additional readings will be posted for each class day and can be found on the course website. Most reading material is open source and available via a link on the reading list, otherwise it can be found on CANVAS. 
+- Additional readings will be posted for each class day and can be found on the course website. Most reading material is open source and available via a link on the reading list, otherwise it can be found on Canvas. 
 
 - All class slides and lecture notes will be available on the class website. 
 
@@ -133,7 +133,7 @@ All submission must be posted by Friday by 11:59PM. All coding responses to anot
    
 The goal of the coding discussions is to apply a concept learned during the week in a way that helps build a greater level of programming fluency. Programming skills are honed through active usage and repetition. Learning to read other people’s code and detecting issues is vital to successful collaborations in applied work. The point is not to be “right” necessarily but rather to try, learn, and collaborate. 
 
-**Problem Sets** (35%): There will be five assignments throughout the course of the semester. These assignments will take the form of questions that the student must complete independently or with assigned partners (See Course Policies "Homework Partner"). The goal of the assignment is to reinforce the student’s comprehension of the materials covered in each section. All assignments will be posted Wednesday afternoon by 5:00PM on the class CANVAS site for the weeks marked on the syllabus. Problem sets are due on the date and time posted on Canvas and must be submitted on Canvas. Generally, a week will be allotted to complete each assignment. Late assignments will be penalized a letter grade for every day they are overdue.
+**Problem Sets** (35%): There will be five assignments throughout the course of the semester. These assignments will take the form of questions that the student must complete independently or with assigned partners (See Course Policies "Homework Partner"). The goal of the assignment is to reinforce the student’s comprehension of the materials covered in each section. All assignments will be posted Wednesday afternoon by 5:00PM on the class Canvas site for the weeks marked on the syllabus. Problem sets are due on the date and time posted on Canvas and must be submitted on Canvas. Generally, a week will be allotted to complete each assignment. Late assignments will be penalized a letter grade for every day they are overdue.
 
 The assignments will be in the form of a Jupyter Notebook (.ipynb). Student's must submit completed assignments as Jupyter notebooks (.ipynb) with all coding chunk run (so that the output is visible upon opening the notebook). All assignment submissions must adhere to the following guidelines: 
 
@@ -213,7 +213,7 @@ I reserve the right to deduct attendance points from students who are not partic
 
 Attendance will be taken daily. A sheet of paper will be made available at the front of the room at the start of every class. Students must write their name on the paper. The **paper will be removed 5 minutes after the start of class**. Students who walk in late after that point will not have an opportunity to write their name and will be considered absent. This log will be used, in part, to calculate the attendance grade.
 
-If absent, each student is responsible to make up the materials missed during a lecture on their own. All lecture notes will be posted on the class website. Thus, students who missed a lecture should reach out to their peers in the class for lecture notes. It is not the responsibility of the Professor/TA to fill absentee students in on any missed content
+If absent, each student is responsible to make up the materials missed during a lecture on their own. All lecture notes will be posted on the class website. Thus, students who missed a lecture should reach out to their peers in the class for lecture notes. It is not the responsibility of the Professor/TA to fill absentee students in on any missed content.
 
 ### Communication
 
