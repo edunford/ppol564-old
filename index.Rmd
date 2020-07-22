@@ -74,9 +74,9 @@ read_csv('syllabus/fall-2019-timeline.csv') %>%
 <br>
 <br>
 
-<!-- #### List of all [required reading](readings/reading-list.html). -->
+#### List of all [required reading](readings/reading-list.html).
 
-<!-- #### [Study Suggestions for the Final Exam](lectures/study_guide.pdf) -->
+#### [Study Suggestions for the Final Exam](lectures/study_guide.pdf)
 
 <br>
 <br>
@@ -93,26 +93,26 @@ Recitation meets most weeks on Mondays from 5:00 to 5:50 in **Car Bar 203**. Bel
 ```{r,echo=F}
 tribble(
   ~'Lab No.', ~Date, ~` `,
-    1, "09-09", "Lab",
-    2, "09-16", "Lab",
+    '1', "09-09", "Lab",
+    '2', "09-16", "Lab",
     "", "09-23", "Makeup Class (class does not meet earlier in the day)",
     "","09-30", "Attend the Data Science in Action Seminar",
-    3, "10-07", "Lab",
+    '3', "10-07", "Lab",
     "", "10-14", "No Lab - Mid-Semester Holiday",
-    4, "10-21", "Lab",
-    5, "10-28", "Lab",
+    '4', "10-21", "Lab",
+    '5', "10-28", "Lab",
     "6", "11-04", "Lab (Q&A with the TA - Attendance Optional)",
     "","11-11", "Attend the Data Science in Action Seminar",
     "", "11-18", "Attend the Data Science in Action Seminar",
-    7, "11-25", "Lab",
-    8, "12-02", "Lab",
-    9, "12-09", "Lab (Review - Attendance Optional)"
+    '7', "11-25", "Lab",
+    '8', "12-02", "Lab",
+    '9', "12-09", "Lab (Review - Attendance Optional)"
 ) %>% 
   kable(., "html", booktabs = T,align = c('c','l','l')) %>%
   # kable(., "latex", booktabs = T,align = c('c','l','l')) %>%
-  kable_styling(latex_options = c("striped", 
+  kable_styling(latex_options = c("striped",
                                   "scale_down","repeat_header"),
-                full_width = T,font_size = 16) %>% 
+                full_width = T,font_size = 16) %>%
   column_spec(1,width = '1in') %>% 
   column_spec(2,width = '1in') %>% 
   column_spec(3,width = '4in') 
